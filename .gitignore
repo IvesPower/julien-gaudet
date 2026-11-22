@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Tests
+coverage/
+test-results/
+playwright-report/
+.features-gen/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Local environment
+.env*.local
+.vercel/
+
+# OS
+.DS_Store
+
+# Local-only documents (kept out of the public repository)
+/julien-gaudet - Document de conception.md
+.claude/settings.local.json
+
+# Superpowers scratch workspace
+.superpowers/
