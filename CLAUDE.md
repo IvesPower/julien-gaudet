@@ -41,6 +41,7 @@ Node 26 LTS (`.nvmrc`) et pnpm.
 - `pnpm format` / `pnpm format:check` : Prettier, écriture ou vérification.
 - `pnpm typecheck` : génère les types des routes (`next typegen`) puis `tsc --noEmit`.
 - `pnpm test` : tests unitaires Vitest (`**/*.test.ts`).
+- `pnpm test:e2e` : scénarios Gherkin (`features/`) avec Playwright BDD et `axe`, contre `pnpm start` (lancer `pnpm build` avant). `PLAYWRIGHT_BASE_URL=<url>` les lance contre un site déployé.
 - `pnpm photos:meta` : prévu au lot 3.
 
 ## MCP du projet

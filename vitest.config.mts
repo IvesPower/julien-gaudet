@@ -7,6 +7,8 @@ export default defineConfig({
   },
   test: {
     environment: "node",
+    // next-intl imports `next/navigation` without an extension; let Vite resolve it.
+    server: { deps: { inline: ["next-intl"] } },
     include: ["**/*.test.ts"],
     exclude: ["node_modules/**", ".next/**", "features/**", ".features-gen/**"],
   },

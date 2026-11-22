@@ -1,0 +1,51 @@
+{
+  "Layout": {
+    "siteName": "Julien Gaudet",
+    "skipToContent": "Skip to content"
+  },
+  "Navigation": {
+    "label": "Main navigation",
+    "home": "Home",
+    "experience": "Experience",
+    "projects": "Projects",
+    "photo": "Photo",
+    "talks": "Talks",
+    "podcast": "Podcast",
+    "legal": "Legal notice"
+  },
+  "LocaleSwitcher": {
+    "label": "Français"
+  },
+  "HomePage": {
+    "title": "Julien Gaudet",
+    "placeholder": "I'm building this site. Come back soon."
+  },
+  "ExperiencePage": {
+    "title": "Experience",
+    "placeholder": "My experience is coming here soon."
+  },
+  "ProjectsPage": {
+    "title": "Projects",
+    "placeholder": "My projects are coming here soon."
+  },
+  "PhotoPage": {
+    "title": "Photography",
+    "placeholder": "My photos are coming here soon."
+  },
+  "TalksPage": {
+    "title": "Talks",
+    "placeholder": "My talks are coming here soon."
+  },
+  "PodcastPage": {
+    "title": "Pizza Ananar",
+    "placeholder": "The podcast is coming here soon."
+  },
+  "LegalPage": {
+    "title": "Legal notice",
+    "placeholder": "The legal notice is coming here soon."
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "placeholder": "This page doesn't exist or has moved."
+  }
+}
