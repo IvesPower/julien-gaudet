@@ -1,0 +1,7 @@
+.next
+pnpm-lock.yaml
+.features-gen
+playwright-report
+test-results
+.superpowers
+.claude
