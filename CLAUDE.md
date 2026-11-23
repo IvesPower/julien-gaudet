@@ -33,7 +33,15 @@ Site carte de visite bilingue FR / EN en Next.js (App Router) + TypeScript stric
 
 ## Commandes
 
-À compléter au lot 1 (pnpm prévu) : `dev`, `build`, `lint` (Oxlint, `--deny-warnings`), `typecheck`, `test` (Vitest), `test:e2e` (Playwright BDD), `photos:meta`.
+Node 26 LTS (`.nvmrc`) et pnpm.
+
+- `pnpm dev` : serveur de développement.
+- `pnpm build` puis `pnpm start` : build de production et serveur local.
+- `pnpm lint` : Oxlint avec les types, les avertissements font échouer.
+- `pnpm format` / `pnpm format:check` : Prettier, écriture ou vérification.
+- `pnpm typecheck` : génère les types des routes (`next typegen`) puis `tsc --noEmit`.
+- `pnpm test` : tests unitaires Vitest (`**/*.test.ts`).
+- `pnpm photos:meta` : prévu au lot 3.
 
 ## MCP du projet
 

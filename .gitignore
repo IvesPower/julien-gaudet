@@ -16,8 +16,16 @@ playwright-report/
 next-env.d.ts
 
 # Local environment
-.env*.local
+.env*
 .vercel/
+*.pem
+
+# Logs
+npm-debug.log*
+.pnpm-debug.log*
+
+# Build
+/build
 
 # OS
 .DS_Store
