@@ -22,7 +22,25 @@
   },
   "ExperiencePage": {
     "title": "Experience",
-    "placeholder": "My experience is coming here soon."
+    "description": "Julien Gaudet's path as a front-end developer: jobs and education.",
+    "intro": "Jobs and education, newest first.",
+    "linkedin": "LinkedIn",
+    "groups": {
+      "work": "Experience",
+      "education": "Education"
+    },
+    "kind": {
+      "current": "Current role",
+      "work": "Experience",
+      "education": "Degree"
+    },
+    "contract": {
+      "permanent": "Permanent",
+      "fixed-term": "Fixed-term",
+      "freelance": "Freelance"
+    },
+    "present": "present",
+    "tags": "Technologies"
   },
   "ProjectsPage": {
     "title": "Projects",

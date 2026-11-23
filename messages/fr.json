@@ -22,7 +22,25 @@
   },
   "ExperiencePage": {
     "title": "Parcours",
-    "placeholder": "Mon parcours arrive bientôt ici."
+    "description": "Le parcours de Julien Gaudet, développeur front : expériences et formation.",
+    "intro": "Expériences et formation, de la plus récente à la plus ancienne.",
+    "linkedin": "LinkedIn",
+    "groups": {
+      "work": "Expériences",
+      "education": "Formation"
+    },
+    "kind": {
+      "current": "Poste actuel",
+      "work": "Expérience",
+      "education": "Diplôme"
+    },
+    "contract": {
+      "permanent": "CDI",
+      "fixed-term": "CDD",
+      "freelance": "Freelance"
+    },
+    "present": "aujourd’hui",
+    "tags": "Technologies"
   },
   "ProjectsPage": {
     "title": "Projets",
