@@ -8,6 +8,9 @@ export const routing = defineRouting({
   locales: ["fr", "en"],
   defaultLocale: "fr",
   localePrefix: "always",
+  // hreflang links come from each page's metadata (lib/alternates.ts), with
+  // x-default = "/". next-intl's own `Link` header would contradict them.
+  alternateLinks: false,
   localeCookie: {
     // One year: a language preference cookie, exempt from consent.
     maxAge: 60 * 60 * 24 * 365,

@@ -81,3 +81,10 @@ Then(
     expect(href ? new URL(href).pathname : null).toBe(suffix);
   },
 );
+
+Then(
+  "the response has no {string} header",
+  async ({ lastResponse }, name: string) => {
+    expect(lastResponse.current?.headers()[name]).toBeUndefined();
+  },
+);
