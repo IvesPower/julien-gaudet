@@ -2,7 +2,10 @@ import { getTranslations } from "next-intl/server";
 import type { PageNamespace } from "@/lib/page-metadata";
 
 /** Pages still waiting for their content. */
-export type SkeletonNamespace = Exclude<PageNamespace, "ExperiencePage">;
+export type SkeletonNamespace = Exclude<
+  PageNamespace,
+  "ExperiencePage" | "ProjectsPage"
+>;
 
 /** Placeholder page until the real content and design arrive. */
 export async function SkeletonPage({

@@ -44,7 +44,30 @@
   },
   "ProjectsPage": {
     "title": "Projects",
-    "placeholder": "My projects are coming here soon."
+    "description": "Julien Gaudet's open source tools, built to edit the Pizza Ananar podcast.",
+    "intro": "Two open source command-line tools, born to edit Pizza Ananar. They run locally; Claude is optional.",
+    "status": {
+      "in-development": "In development",
+      "usable": "Usable",
+      "archived": "Archived"
+    },
+    "platform": {
+      "macos": "macOS",
+      "windows": "Windows",
+      "linux": "Linux"
+    },
+    "details": {
+      "install": "Install",
+      "installLater": "Install steps will come with the first release.",
+      "platforms": "Platforms",
+      "stack": "Stack",
+      "license": "License"
+    },
+    "github": "View on GitHub",
+    "why": {
+      "title": "Why these tools?",
+      "text": "They exist for <link>Pizza Ananar</link>, the film podcast I co-host."
+    }
   },
   "PhotoPage": {
     "title": "Photography",

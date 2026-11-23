@@ -44,7 +44,30 @@
   },
   "ProjectsPage": {
     "title": "Projets",
-    "placeholder": "Mes projets arrivent bientôt ici."
+    "description": "Les outils open source de Julien Gaudet, nés pour monter le podcast Pizza Ananar.",
+    "intro": "Deux outils open source en ligne de commande, nés pour monter Pizza Ananar. Ils tournent en local, Claude est en option.",
+    "status": {
+      "in-development": "En développement",
+      "usable": "Utilisable",
+      "archived": "Archivé"
+    },
+    "platform": {
+      "macos": "macOS",
+      "windows": "Windows",
+      "linux": "Linux"
+    },
+    "details": {
+      "install": "Installation",
+      "installLater": "L’installation arrivera avec la première version.",
+      "platforms": "Plateformes",
+      "stack": "Stack",
+      "license": "Licence"
+    },
+    "github": "Voir sur GitHub",
+    "why": {
+      "title": "Pourquoi ces outils ?",
+      "text": "Ils existent pour <link>Pizza Ananar</link>, le podcast cinéma que je co-anime."
+    }
   },
   "PhotoPage": {
     "title": "Photographie",

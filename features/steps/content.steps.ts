@@ -34,3 +34,19 @@ Then(
 Then("the page does not contain {string}", async ({ page }, text: string) => {
   await expect(page.locator("body")).not.toContainText(text);
 });
+
+Then(
+  "the project {string} shows {string}",
+  async ({ page }, slug: string, text: string) => {
+    await expect(page.locator(`article#${slug}`)).toContainText(text);
+  },
+);
+
+Then(
+  "the project {string} links {string} to {string}",
+  async ({ page }, slug: string, name: string, href: string) => {
+    await expect(
+      page.locator(`article#${slug}`).getByRole("link", { name, exact: true }),
+    ).toHaveAttribute("href", href);
+  },
+);

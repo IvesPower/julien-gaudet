@@ -30,16 +30,7 @@ describe("routing", () => {
     },
   );
 
-  it("localizes project and talk detail pages with their slug", () => {
-    expect(
-      getPathname({
-        locale: "en",
-        href: {
-          pathname: "/projets/[slug]",
-          params: { slug: "podcleaner-clips" },
-        },
-      }),
-    ).toBe("/en/projects/podcleaner-clips");
+  it("localizes talk detail pages with their slug", () => {
     expect(
       getPathname({
         locale: "en",
