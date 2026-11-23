@@ -1,0 +1,17 @@
+---
+name: podcleaner-clips
+tagline: Découpe les extraits de films notés pendant le visionnage, prêts à être joués en direct pendant l’enregistrement du podcast.
+status: usable
+platforms: [macos, windows]
+stack: [Python 3.11/3.12, uv, ffmpeg, Whisper]
+repo: https://github.com/IvesPower/podcleaner-clips
+license: MIT
+install: uv tool install git+https://github.com/IvesPower/podcleaner-clips
+order: 1
+---
+
+- Retrouve chaque réplique dans les sous-titres VF, ou dans le doublage grâce à Whisper.
+- Coupes calées sur les phrases, fondus et son de transition.
+- Choisit la piste VF (ou VFF/VFQ), normalise à -16 LUFS.
+- Sorties WAV 48 kHz, MP4 H.264 et index `clips.json` ; seuls les extraits modifiés sont refaits.
+- Claude en option pour proposer les coupes ; fonctionne sans.
