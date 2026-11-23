@@ -53,3 +53,25 @@ Chaque page déclare son URL canonique et ses alternatives `hreflang` (`fr`, `en
 4. Ajouter le lien dans `components/site-nav.tsx` si la page fait partie de la navigation.
 5. Ajouter les deux URLs dans `features/pages.feature`.
 6. Vérifier : `pnpm build && pnpm check:static && pnpm test:e2e`.
+
+## Limite connue : la 404 dépend de JavaScript
+
+Une URL inconnue (`/fr/nope`, `/en/projects/x`) renvoie bien un statut 404, mais le HTML envoyé par le serveur est un shell vide (`<html id="__next_error__">`) : le titre « Page introuvable » et l'attribut `lang` n'apparaissent qu'après l'hydratation. C'est le comportement de Next 16.4 quand `notFound()` est levé au rendu d'une route dynamique (chemin `errorRecovery` de `app-render`), reproduit dans une app minimale sans next-intl. Une route fourre-tout statique (`dynamicParams = false`) servirait une 404 complète, mais seulement en français.
+
+Décision du 23 novembre 2026 : on garde ce comportement pour le lot 1 et on le revoit au lot 5 (finitions, audit d'accessibilité). Pistes : version corrigée de Next, ou réécriture dans `proxy.ts` vers des 404 prérendues par langue. Le scénario à réactiver alors :
+
+```gherkin
+Scenario Outline: The 404 page is complete without JavaScript
+  When I fetch the raw HTML of "<path>"
+  Then the raw response status is 404
+  And the raw HTML has the language "<lang>"
+  And the raw HTML has the main heading "<heading>"
+
+  Examples:
+    | path                 | heading          | lang |
+    | /fr/nope             | Page introuvable | fr   |
+    | /en/nope             | Page not found   | en   |
+    | /fr/projets/anything | Page introuvable | fr   |
+```
+
+Ses steps lisent la réponse avec `request.get(path)` (sans navigateur) et cherchent `<html … lang="…">` et `<h1>…</h1>` dans le texte.
