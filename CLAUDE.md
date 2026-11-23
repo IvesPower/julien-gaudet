@@ -25,7 +25,10 @@ Site carte de visite bilingue FR / EN en Next.js (App Router) + TypeScript stric
 ## Structure
 
 - `app/[locale]/…` : pages uniquement, elles lisent `content/` sans contenu en dur.
-- `content/` : MDX (un fichier par langue : `slug.fr.mdx`, `slug.en.mdx`) et JSON. Ajouter un talk, un projet ou une photo ne doit pas toucher au code.
+- `content/` : MDX (un fichier par langue : `slug.fr.mdx`, `slug.en.mdx`) et JSON, validés par `lib/schemas.ts` et lus par `lib/content.ts` (voir `docs/features/content.md`). Ajouter un talk, un projet ou une photo ne doit pas toucher au code.
+  - `content/parcours.json` : expériences et formation.
+  - `content/projets/<slug>.<langue>.mdx` : un projet par slug, tous affichés sur `/projets` (pas de page par projet pour l'instant).
+  - `content/profile.json` : liens LinkedIn et GitHub.
 - `messages/fr.json`, `messages/en.json` : textes d'interface (`next-intl`).
 - `public/photos/` + `content/photos.json` généré par `pnpm photos:meta`.
 - `features/` : scénarios Gherkin et steps Playwright BDD.
