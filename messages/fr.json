@@ -1,0 +1,51 @@
+{
+  "Layout": {
+    "siteName": "Julien Gaudet",
+    "skipToContent": "Aller au contenu"
+  },
+  "Navigation": {
+    "label": "Navigation principale",
+    "home": "Accueil",
+    "experience": "Parcours",
+    "projects": "Projets",
+    "photo": "Photo",
+    "talks": "Conférences",
+    "podcast": "Podcast",
+    "legal": "Mentions légales"
+  },
+  "LocaleSwitcher": {
+    "label": "English"
+  },
+  "HomePage": {
+    "title": "Julien Gaudet",
+    "placeholder": "Je prépare ce site. Revenez bientôt."
+  },
+  "ExperiencePage": {
+    "title": "Parcours",
+    "placeholder": "Mon parcours arrive bientôt ici."
+  },
+  "ProjectsPage": {
+    "title": "Projets",
+    "placeholder": "Mes projets arrivent bientôt ici."
+  },
+  "PhotoPage": {
+    "title": "Photographie",
+    "placeholder": "Mes photos arrivent bientôt ici."
+  },
+  "TalksPage": {
+    "title": "Conférences",
+    "placeholder": "Mes conférences arrivent bientôt ici."
+  },
+  "PodcastPage": {
+    "title": "Pizza Ananar",
+    "placeholder": "Le podcast arrive bientôt ici."
+  },
+  "LegalPage": {
+    "title": "Mentions légales",
+    "placeholder": "Les mentions légales arrivent bientôt ici."
+  },
+  "NotFoundPage": {
+    "title": "Page introuvable",
+    "placeholder": "Cette page n'existe pas ou a changé d'adresse."
+  }
+}
