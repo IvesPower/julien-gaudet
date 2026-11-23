@@ -139,7 +139,9 @@ const neutralFields = [
   "order",
 ] as const satisfies ReadonlyArray<keyof ProjectFrontmatter>;
 
-const projectFile = /^(.+)\.(fr|en)\.mdx$/;
+// A slug is lowercase words joined by hyphens: it becomes the page anchor and
+// part of the MDX import path.
+const projectFile = /^([a-z0-9]+(?:-[a-z0-9]+)*)\.(fr|en)\.mdx$/;
 
 async function readFrontmatter(
   contentDir: string,
@@ -192,8 +194,17 @@ export async function getProjects(
   const names = await readdir(path.join(contentDir, "projets"));
   const files = new Map<string, Set<AppLocale>>();
   for (const name of names) {
+    // Other files (a README, notes) are ignored, but a misnamed MDX file would
+    // silently drop a project: fail instead.
+    if (!name.endsWith(".mdx")) continue;
     const [, slug, lang] = projectFile.exec(name) ?? [];
-    if (!slug || (lang !== "fr" && lang !== "en")) continue;
+    if (!slug || (lang !== "fr" && lang !== "en")) {
+      throw new ContentError(
+        `projets/${name}`,
+        "",
+        "expected <slug>.fr.mdx or <slug>.en.mdx",
+      );
+    }
     const langs = files.get(slug) ?? new Set<AppLocale>();
     langs.add(lang);
     files.set(slug, langs);

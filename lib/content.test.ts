@@ -166,6 +166,16 @@ describe("getProjects", () => {
     expect((await getProjects("fr", dir)).map((p) => p.slug)).toEqual(["a"]);
   });
 
+  it.each(["tool.mdx", "tool.de.mdx", "My Tool.fr.mdx"])(
+    "rejects a misnamed project file (%s)",
+    async (name) => {
+      const dir = await writeContent({ [`projets/${name}`]: frontmatter() });
+      await expect(getProjects("fr", dir)).rejects.toThrow(
+        `projets/${name}: expected <slug>.fr.mdx or <slug>.en.mdx`,
+      );
+    },
+  );
+
   it("sorts by order, then slug", async () => {
     const dir = await writeContent({
       "projets/b.fr.mdx": frontmatter({ order: "1" }),

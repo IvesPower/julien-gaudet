@@ -2,7 +2,7 @@ import type { MDXContent } from "mdx/types";
 import { getTranslations } from "next-intl/server";
 import type { AppLocale } from "@/i18n/routing";
 import type { ResolvedProject } from "@/lib/content";
-import { langAttr } from "@/lib/lang-attr";
+import { ProjectArticle } from "./project-article";
 
 async function loadBody(project: ResolvedProject): Promise<MDXContent> {
   const mod: { default: MDXContent } = await import(
@@ -11,7 +11,7 @@ async function loadBody(project: ResolvedProject): Promise<MDXContent> {
   return mod.default;
 }
 
-/** A project in full, with an anchor equal to its slug. */
+/** Loads a project's MDX body and labels, then renders it. */
 export async function ProjectCard({
   project,
   locale,
@@ -23,36 +23,22 @@ export async function ProjectCard({
     getTranslations("ProjectsPage"),
     loadBody(project),
   ]);
-  const headingId = `${project.slug}-title`;
+  const labels = {
+    status: t(`status.${project.status}`),
+    install: t("details.install"),
+    installLater: t("details.installLater"),
+    platforms: t("details.platforms"),
+    platformNames: project.platforms.map((p) => t(`platform.${p}`)),
+    stack: t("details.stack"),
+    license: t("details.license"),
+    github: t("github"),
+  };
   return (
-    <article
-      id={project.slug}
-      aria-labelledby={headingId}
-      lang={langAttr({ lang: project.contentLocale }, locale)}
-    >
-      <h2 id={headingId}>{project.name}</h2>
-      <p>{t(`status.${project.status}`)}</p>
-      <p>{project.tagline.text}</p>
-      <Body />
-      <dl>
-        <dt>{t("details.install")}</dt>
-        <dd>
-          {project.install ? (
-            <code>{project.install}</code>
-          ) : (
-            t("details.installLater")
-          )}
-        </dd>
-        <dt>{t("details.platforms")}</dt>
-        <dd>{project.platforms.map((p) => t(`platform.${p}`)).join(" · ")}</dd>
-        <dt>{t("details.stack")}</dt>
-        <dd>{project.stack.join(" · ")}</dd>
-        <dt>{t("details.license")}</dt>
-        <dd>{project.license}</dd>
-      </dl>
-      <p>
-        <a href={project.repo}>{t("github")}</a>
-      </p>
-    </article>
+    <ProjectArticle
+      project={project}
+      locale={locale}
+      labels={labels}
+      Body={Body}
+    />
   );
 }

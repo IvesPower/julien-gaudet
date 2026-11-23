@@ -73,8 +73,9 @@ Toute erreur lève une `ContentError` qui nomme le fichier et le champ, et le pr
 - une date mal formée (`2024-13`) ou une fin avant le début : `parcours.json: 3.end: end is before start` ;
 - un champ inconnu (faute de frappe) ;
 - un `.en.mdx` sans `.fr.mdx` : `projets/a.en.mdx: missing French source` ;
-- un champ neutre différent entre FR et EN : `projets/a.en.mdx: status: differs from the French file`.
+- un champ neutre différent entre FR et EN : `projets/a.en.mdx: status: differs from the French file` ;
+- un fichier MDX mal nommé (`outil.mdx`, `outil.de.mdx`, `Mon outil.fr.mdx`) : `projets/outil.mdx: expected <slug>.fr.mdx or <slug>.en.mdx`. Un slug s'écrit en minuscules, chiffres et tirets.
 
-Les autres fichiers de `content/projets/` (un `README.md`, des notes) sont ignorés.
+Les fichiers qui ne sont pas en `.mdx` dans `content/projets/` (un `README.md`, des notes) sont ignorés.
 
 Pour tester un changement sans build complet : `pnpm test` charge le vrai contenu (`lib/content.test.ts`, « loads the real content »).
