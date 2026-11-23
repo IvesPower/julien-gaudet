@@ -1,0 +1,16 @@
+---
+name: podcleaner-editor
+tagline: Does the repetitive part of editing an episode, from the raw recording to a file ready to finish by hand.
+status: in-development
+platforms: [macos, windows]
+stack: [Python 3.11/3.12, uv, ffmpeg, DeepFilterNet, Silero VAD, Whisper]
+repo: https://github.com/IvesPower/podcleaner-editor
+license: MIT
+order: 2
+---
+
+- Studio sound: denoise, EQ, compression, mix at -16 LUFS.
+- Shortens silences longer than one second.
+- Removes isolated “uh”s and flags the rest.
+- Finds film clips and spoken markers (“Claude, cut here”).
+- Markdown edit file and markers for Logic Pro and Cakewalk.

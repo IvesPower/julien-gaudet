@@ -6,17 +6,16 @@ Le site existe en français (langue par défaut) et en anglais, avec des URLs tr
 
 Les dossiers de `app/[locale]/` portent le **chemin interne**, en français. La table `pathnames` de [`i18n/routing.ts`](../../i18n/routing.ts) donne l'URL publique de chaque langue.
 
-| Interne               | FR                       | EN                    |
-| --------------------- | ------------------------ | --------------------- |
-| `/`                   | `/fr`                    | `/en`                 |
-| `/parcours`           | `/fr/parcours`           | `/en/experience`      |
-| `/projets`            | `/fr/projets`            | `/en/projects`        |
-| `/projets/[slug]`     | `/fr/projets/[slug]`     | `/en/projects/[slug]` |
-| `/photo`              | `/fr/photo`              | `/en/photo`           |
-| `/conferences`        | `/fr/conferences`        | `/en/talks`           |
-| `/conferences/[slug]` | `/fr/conferences/[slug]` | `/en/talks/[slug]`    |
-| `/podcast`            | `/fr/podcast`            | `/en/podcast`         |
-| `/mentions-legales`   | `/fr/mentions-legales`   | `/en/legal-notice`    |
+| Interne               | FR                       | EN                 |
+| --------------------- | ------------------------ | ------------------ |
+| `/`                   | `/fr`                    | `/en`              |
+| `/parcours`           | `/fr/parcours`           | `/en/experience`   |
+| `/projets`            | `/fr/projets`            | `/en/projects`     |
+| `/photo`              | `/fr/photo`              | `/en/photo`        |
+| `/conferences`        | `/fr/conferences`        | `/en/talks`        |
+| `/conferences/[slug]` | `/fr/conferences/[slug]` | `/en/talks/[slug]` |
+| `/podcast`            | `/fr/podcast`            | `/en/podcast`      |
+| `/mentions-legales`   | `/fr/mentions-legales`   | `/en/legal-notice` |
 
 ## Parcours d'une requête
 

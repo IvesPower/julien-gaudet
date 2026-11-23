@@ -1,0 +1,17 @@
+---
+name: podcleaner-clips
+tagline: Cuts the film clips you noted while watching, ready to play live during the podcast recording.
+status: usable
+platforms: [macos, windows]
+stack: [Python 3.11/3.12, uv, ffmpeg, Whisper]
+repo: https://github.com/IvesPower/podcleaner-clips
+license: MIT
+install: uv tool install git+https://github.com/IvesPower/podcleaner-clips
+order: 1
+---
+
+- Finds each line in the French subtitles, or in the dub with Whisper.
+- Cuts snapped to sentences, with fades and a transition sound.
+- Picks the French dub track (VFF/VFQ), normalises to -16 LUFS.
+- 48 kHz WAV, H.264 MP4 and a `clips.json` index; only changed clips are redone.
+- Optional Claude help to suggest cuts; works without it.

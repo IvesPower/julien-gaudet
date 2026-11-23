@@ -1,0 +1,357 @@
+[
+  {
+    "kind": "work",
+    "contract": "permanent",
+    "start": "2024-01",
+    "role": {
+      "fr": "Software Engineer Front & Scrum Master",
+      "en": "Software Engineer Front & Scrum Master"
+    },
+    "org": "AXA France",
+    "place": {
+      "fr": "Wasquehal · hybride",
+      "en": "Wasquehal, France · hybrid"
+    },
+    "highlights": [
+      {
+        "fr": "Développement front-end React sur plusieurs projets.",
+        "en": "React front-end development across several projects."
+      },
+      {
+        "fr": "Scrum Master de l’équipe.",
+        "en": "Scrum Master for the team."
+      },
+      {
+        "fr": "Speaker : keynote d’ouverture DevLille 2026, Epitech Summit, AXA Summits, Devoxx (BOF).",
+        "en": "Speaker: DevLille 2026 opening keynote, Epitech Summit, AXA Summits, Devoxx (BOF)."
+      }
+    ],
+    "tags": ["React", "CSS", "Scrum", "GenAI"]
+  },
+  {
+    "kind": "work",
+    "contract": "freelance",
+    "start": "2023-12",
+    "end": "2024-01",
+    "role": {
+      "fr": "Développeur C# ASP.NET MVC Core",
+      "en": "C# ASP.NET MVC Core developer"
+    },
+    "org": "Lesaffre · Phileo",
+    "place": {
+      "fr": "Lille · à distance",
+      "en": "Lille, France · remote"
+    },
+    "highlights": [
+      {
+        "fr": "Nouvelles fonctionnalités pour une application C# ASP.NET MVC Core de Phileo by Lesaffre.",
+        "en": "New features for a C# ASP.NET MVC Core application for Phileo by Lesaffre."
+      }
+    ],
+    "tags": ["C#", "ASP.NET MVC"]
+  },
+  {
+    "kind": "work",
+    "contract": "permanent",
+    "start": "2022-11",
+    "end": "2024-01",
+    "role": {
+      "fr": "Développeur front React TypeScript",
+      "en": "Front-end developer, React TypeScript"
+    },
+    "org": "BOLD",
+    "place": {
+      "fr": "Lille",
+      "en": "Lille"
+    },
+    "highlights": [
+      {
+        "fr": "Application front-end de gestion de la surproduction des stocks chez Décathlon.",
+        "en": "Front-end app to manage stock overproduction at Decathlon."
+      },
+      {
+        "fr": "Conception des fonctionnalités main dans la main avec le métier, pour les équipes en atelier.",
+        "en": "Designed features hand in hand with the business, for workshop teams."
+      },
+      {
+        "fr": "Découpe front/back des modules existants, chiffrages, conception technique pensée pour un déploiement mondial.",
+        "en": "Split existing modules front/back, estimated work, technical design built for worldwide scale."
+      },
+      {
+        "fr": "Qualité : code review, TDD, BDD, SOLID. Partage de connaissances et automatisation des tâches répétitives.",
+        "en": "Quality: code review, TDD, BDD, SOLID. Knowledge sharing and automating repetitive tasks."
+      }
+    ],
+    "tags": ["React", "TypeScript", "TDD", "BDD"]
+  },
+  {
+    "kind": "work",
+    "contract": "freelance",
+    "start": "2022-11",
+    "end": "2023-02",
+    "role": {
+      "fr": "Développeur low code Xano & WeWeb",
+      "en": "Low-code developer, Xano & WeWeb"
+    },
+    "org": "Néo Carbone",
+    "place": {
+      "fr": "Québec · à distance",
+      "en": "Quebec City · remote"
+    },
+    "highlights": [
+      {
+        "fr": "Application comptable Drouin CTB pour la saisie des déclarations annuelles.",
+        "en": "Drouin CTB accounting app for filing annual returns."
+      },
+      {
+        "fr": "Back-end en API low code Xano, front-end sur WeWeb.",
+        "en": "Low-code Xano API back end, WeWeb front end."
+      }
+    ],
+    "tags": ["Xano", "WeWeb"]
+  },
+  {
+    "kind": "work",
+    "contract": "fixed-term",
+    "start": "2022-06",
+    "end": "2022-11",
+    "role": {
+      "fr": "Scrum Master & analyste programmeur React TypeScript & .NET Core",
+      "en": "Scrum Master & developer analyst, React TypeScript & .NET Core"
+    },
+    "org": "Alithya",
+    "place": {
+      "fr": "Montréal",
+      "en": "Montreal"
+    },
+    "highlights": [
+      {
+        "fr": "Scrum Master : animation des mêlées, planification des itérations et des sprints.",
+        "en": "Scrum Master: running stand-ups, iteration and sprint planning."
+      },
+      {
+        "fr": "Développement de sites et d’applications internes pour Revenu Québec.",
+        "en": "Built internal websites and apps for Revenu Québec."
+      },
+      {
+        "fr": "C# .NET Core, .NET, JavaScript, TypeScript, React, API REST.",
+        "en": "C# .NET Core, .NET, JavaScript, TypeScript, React, REST APIs."
+      },
+      {
+        "fr": "Méthodes : Scrum, DevOps, TDD.",
+        "en": "Methods: Scrum, DevOps, TDD."
+      }
+    ],
+    "tags": ["React", "TypeScript", ".NET Core", "Scrum"]
+  },
+  {
+    "kind": "work",
+    "contract": "fixed-term",
+    "start": "2019-10",
+    "end": "2022-06",
+    "role": {
+      "fr": "Scrum Master & analyste programmeur React & .NET Core",
+      "en": "Scrum Master & developer analyst, React & .NET Core"
+    },
+    "org": "Trafic3w",
+    "place": {
+      "fr": "Québec",
+      "en": "Quebec City"
+    },
+    "highlights": [
+      {
+        "fr": "Scrum Master : animation des mêlées, planification des itérations et des sprints.",
+        "en": "Scrum Master: running stand-ups, iteration and sprint planning."
+      },
+      {
+        "fr": "Développement de sites et d’applications internes pour Revenu Québec.",
+        "en": "Built internal websites and apps for Revenu Québec."
+      },
+      {
+        "fr": "C# .NET Core, .NET, JavaScript, TypeScript, React, API REST.",
+        "en": "C# .NET Core, .NET, JavaScript, TypeScript, React, REST APIs."
+      },
+      {
+        "fr": "Méthodes : Scrum, DevOps, TDD.",
+        "en": "Methods: Scrum, DevOps, TDD."
+      }
+    ],
+    "tags": ["React", ".NET Core", "Scrum", "DevOps"]
+  },
+  {
+    "kind": "work",
+    "start": "2016-01",
+    "end": "2019-08",
+    "role": {
+      "fr": "Développeur web",
+      "en": "Web developer"
+    },
+    "org": "Lesaffre",
+    "place": {
+      "fr": "Marcq-en-Barœul",
+      "en": "Marcq-en-Barœul"
+    },
+    "highlights": [
+      {
+        "fr": "Sites intranet pour différents services de l’entreprise.",
+        "en": "Intranet sites for several company departments."
+      },
+      {
+        "fr": "Cahiers des charges, conception, maquettage et UML.",
+        "en": "Specifications, design, mock-ups and UML."
+      },
+      {
+        "fr": "Maintenance des applications existantes.",
+        "en": "Maintenance of existing applications."
+      },
+      {
+        "fr": "WLangage WebDev, C# ASP.NET MVC 4.5 – Core 2, C# WPF .NET Core, HTML5, CSS3, JS, SQL.",
+        "en": "WLangage WebDev, C# ASP.NET MVC 4.5 – Core 2, C# WPF .NET Core, HTML5, CSS3, JS, SQL."
+      }
+    ],
+    "tags": ["C#", "ASP.NET MVC", "WPF", "SQL"]
+  },
+  {
+    "kind": "work",
+    "start": "2015-07",
+    "end": "2015-10",
+    "role": {
+      "fr": "Conseiller technique",
+      "en": "Technical advisor"
+    },
+    "org": "OVH",
+    "place": {
+      "fr": "Roubaix",
+      "en": "Roubaix"
+    },
+    "highlights": [
+      {
+        "fr": "Conseil sur les offres d’hébergement web mutualisé.",
+        "en": "Advice on shared web hosting offers."
+      },
+      {
+        "fr": "Diagnostic d’infrastructure et procédures en cas de piratage, support niveaux 1 à 3.",
+        "en": "Infrastructure diagnosis and hack procedures, level 1 to 3 support."
+      },
+      {
+        "fr": "Transferts de domaines, redirections, pointages DNS.",
+        "en": "Domain transfers, redirects, DNS records."
+      },
+      {
+        "fr": "Relais entre les clients et les équipes internes (RUN, ingénierie).",
+        "en": "Link between customers and internal teams (RUN, engineering)."
+      }
+    ],
+    "tags": [
+      "DNS",
+      {
+        "fr": "Hébergement",
+        "en": "Hosting"
+      },
+      "Support"
+    ]
+  },
+  {
+    "kind": "education",
+    "start": "2017",
+    "end": "2019",
+    "role": {
+      "fr": "Master Expert en ingénierie informatique",
+      "en": "Master’s, IT engineering expert"
+    },
+    "org": "Efficom",
+    "place": {
+      "fr": "Lille",
+      "en": "Lille"
+    },
+    "highlights": [
+      {
+        "fr": "Système & réseau, management de projet, stratégie & communication.",
+        "en": "Systems & networks, project management, strategy & communication."
+      },
+      {
+        "fr": "IoT (C, Python, Raspberry Pi), mobile (Kotlin, Java, Android), web (JEE JSF, Flask).",
+        "en": "IoT (C, Python, Raspberry Pi), mobile (Kotlin, Java, Android), web (JEE JSF, Flask)."
+      },
+      {
+        "fr": "Projet de groupe : RunForQuest, appli Android mêlant géolocalisation et réalité augmentée.",
+        "en": "Group project: RunForQuest, an Android app mixing geolocation and augmented reality."
+      },
+      {
+        "fr": "Mémoire : « La place de l’IA dans le secteur professionnel ».",
+        "en": "Thesis: the place of AI in the workplace."
+      }
+    ],
+    "tags": ["Kotlin", "Python", "IoT"]
+  },
+  {
+    "kind": "education",
+    "start": "2016",
+    "end": "2017",
+    "role": {
+      "fr": "BTS Analyste programmeur",
+      "en": "Developer analyst diploma"
+    },
+    "org": "CESI",
+    "place": {
+      "fr": "Lille",
+      "en": "Lille"
+    },
+    "highlights": [
+      {
+        "fr": "Développement web (PHP, HTML, CSS, JS, SQL) et applicatif (Java, C# .NET, C++).",
+        "en": "Web (PHP, HTML, CSS, JS, SQL) and application development (Java, C# .NET, C++)."
+      },
+      {
+        "fr": "Conception et modélisation (UML, Merise, UI/UX), bases de données (Oracle, MySQL, SQL Server).",
+        "en": "Design and modelling (UML, Merise, UI/UX), databases (Oracle, MySQL, SQL Server)."
+      },
+      {
+        "fr": "Rapport d’étude : « La migration des technologies, de l’AGL au framework .NET ».",
+        "en": "Study report: migrating from a CASE tool to the .NET framework."
+      }
+    ],
+    "tags": ["C# .NET", "Java", "SQL"]
+  },
+  {
+    "kind": "education",
+    "start": "2012",
+    "end": "2015",
+    "role": {
+      "fr": "Licence de sociologie",
+      "en": "Bachelor’s in sociology"
+    },
+    "org": {
+      "fr": "Université de Lille",
+      "en": "University of Lille"
+    },
+    "place": {
+      "fr": "Lille",
+      "en": "Lille"
+    },
+    "highlights": [
+      {
+        "fr": "Sociologie, histoire de l’art, analyse des industries culturelles, communication.",
+        "en": "Sociology, art history, cultural industries analysis, communication."
+      }
+    ],
+    "tags": []
+  },
+  {
+    "kind": "education",
+    "start": "2009",
+    "end": "2012",
+    "role": {
+      "fr": "Baccalauréat littéraire",
+      "en": "French baccalaureate, literature"
+    },
+    "org": "Lycée Albert Châtelet",
+    "highlights": [
+      {
+        "fr": "Bac général, série littéraire.",
+        "en": "General baccalaureate, literature track."
+      }
+    ],
+    "tags": []
+  }
+]
