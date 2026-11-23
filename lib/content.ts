@@ -1,5 +1,6 @@
-import { readFile } from "node:fs/promises";
+import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
+import matter from "gray-matter";
 import type { z } from "zod";
 import type { AppLocale } from "@/i18n/routing";
 import {
@@ -8,6 +9,8 @@ import {
   type PeriodDate,
   type Profile,
   profileSchema,
+  type ProjectFrontmatter,
+  projectFrontmatterSchema,
   type Text,
 } from "@/lib/schemas";
 
@@ -36,7 +39,7 @@ export type ResolvedExperience = {
 /** Invalid content: the message names the file and the field. */
 export class ContentError extends Error {
   constructor(file: string, field: string, message: string) {
-    super(`${file}: ${field}: ${message}`);
+    super(field ? `${file}: ${field}: ${message}` : `${file}: ${message}`);
     this.name = "ContentError";
   }
 }
@@ -115,6 +118,95 @@ export async function getExperiences(
       .filter((e) => e.kind === kind)
       .map((e) => resolveExperience(e, locale));
   return { work: group("work"), education: group("education") };
+}
+
+export type ResolvedProject = Omit<ProjectFrontmatter, "tagline"> & {
+  slug: string;
+  tagline: ResolvedText;
+  /** Language of the MDX file whose body is shown. */
+  contentLocale: AppLocale;
+};
+
+/** Frontmatter fields that must be the same in every language file. */
+const neutralFields = [
+  "name",
+  "status",
+  "platforms",
+  "stack",
+  "repo",
+  "license",
+  "install",
+  "order",
+] as const satisfies ReadonlyArray<keyof ProjectFrontmatter>;
+
+const projectFile = /^(.+)\.(fr|en)\.mdx$/;
+
+async function readFrontmatter(
+  contentDir: string,
+  file: string,
+): Promise<ProjectFrontmatter> {
+  const source = await readFile(path.join(contentDir, file), "utf8");
+  return validate(projectFrontmatterSchema, matter(source).data, file);
+}
+
+async function loadProject(
+  contentDir: string,
+  slug: string,
+  langs: ReadonlySet<AppLocale>,
+  locale: AppLocale,
+): Promise<ResolvedProject> {
+  const file = (lang: AppLocale) => `projets/${slug}.${lang}.mdx`;
+  if (!langs.has("fr")) {
+    throw new ContentError(file("en"), "", "missing French source");
+  }
+  const fr = await readFrontmatter(contentDir, file("fr"));
+  const en = langs.has("en")
+    ? await readFrontmatter(contentDir, file("en"))
+    : undefined;
+  if (en) {
+    for (const field of neutralFields) {
+      if (JSON.stringify(en[field]) !== JSON.stringify(fr[field])) {
+        throw new ContentError(
+          file("en"),
+          field,
+          "differs from the French file",
+        );
+      }
+    }
+  }
+  const contentLocale: AppLocale = locale === "en" && en ? "en" : "fr";
+  const { tagline, ...neutral } = contentLocale === "en" && en ? en : fr;
+  return {
+    ...neutral,
+    slug,
+    tagline: { text: tagline, lang: contentLocale },
+    contentLocale,
+  };
+}
+
+/** The projects, in display order, each resolved in the page language. */
+export async function getProjects(
+  locale: AppLocale,
+  contentDir: string = defaultContentDir,
+): Promise<ResolvedProject[]> {
+  const names = await readdir(path.join(contentDir, "projets"));
+  const files = new Map<string, Set<AppLocale>>();
+  for (const name of names) {
+    const [, slug, lang] = projectFile.exec(name) ?? [];
+    if (!slug || (lang !== "fr" && lang !== "en")) continue;
+    const langs = files.get(slug) ?? new Set<AppLocale>();
+    langs.add(lang);
+    files.set(slug, langs);
+  }
+
+  const projects = await Promise.all(
+    Array.from(files, ([slug, langs]) =>
+      loadProject(contentDir, slug, langs, locale),
+    ),
+  );
+  return projects.toSorted(
+    (a, b) => a.order - b.order || a.slug.localeCompare(b.slug),
+  );
 }
 
 export async function getProfile(

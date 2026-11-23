@@ -2,7 +2,12 @@ import { mkdir, mkdtemp, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { getExperiences, getProfile, resolveText } from "./content";
+import {
+  getExperiences,
+  getProfile,
+  getProjects,
+  resolveText,
+} from "./content";
 
 /** Writes the given files in a fresh temporary content folder. */
 async function writeContent(files: Record<string, string>): Promise<string> {
@@ -100,6 +105,97 @@ describe("getExperiences", () => {
     expect(fr.work[2]?.org.text).toBe("BOLD");
     const en = await getExperiences("en");
     expect(en.education[2]?.org.text).toBe("University of Lille");
+  });
+});
+
+const frontmatter = (fields: Record<string, string> = {}) => {
+  const all = {
+    name: "tool",
+    tagline: "Une accroche.",
+    status: "usable",
+    platforms: "[macos]",
+    stack: "[Python]",
+    repo: "https://github.com/IvesPower/tool",
+    license: "MIT",
+    order: "1",
+    ...fields,
+  };
+  const lines = Object.entries(all).map(([key, value]) => `${key}: ${value}`);
+  return `---\n${lines.join("\n")}\n---\n\n- Un point.\n`;
+};
+
+describe("getProjects", () => {
+  it("reads both languages", async () => {
+    const dir = await writeContent({
+      "projets/a.fr.mdx": frontmatter(),
+      "projets/a.en.mdx": frontmatter({ tagline: "A tagline." }),
+    });
+    const [project] = await getProjects("en", dir);
+    expect(project?.tagline).toEqual({ text: "A tagline.", lang: "en" });
+    expect(project?.contentLocale).toBe("en");
+  });
+
+  it("falls back to French when the English file is missing", async () => {
+    const dir = await writeContent({ "projets/a.fr.mdx": frontmatter() });
+    const [project] = await getProjects("en", dir);
+    expect(project?.contentLocale).toBe("fr");
+    expect(project?.tagline.lang).toBe("fr");
+  });
+
+  it("rejects an English file without a French source", async () => {
+    const dir = await writeContent({ "projets/b.en.mdx": frontmatter() });
+    await expect(getProjects("en", dir)).rejects.toThrow(
+      /b\.en\.mdx: missing French source/,
+    );
+  });
+
+  it("rejects a neutral field that differs between languages", async () => {
+    const dir = await writeContent({
+      "projets/a.fr.mdx": frontmatter({ status: "usable" }),
+      "projets/a.en.mdx": frontmatter({ status: "in-development" }),
+    });
+    await expect(getProjects("fr", dir)).rejects.toThrow(/status: differs/);
+  });
+
+  it("ignores other files", async () => {
+    const dir = await writeContent({
+      "projets/a.fr.mdx": frontmatter(),
+      "projets/README.md": "# Notes",
+      "projets/notes.txt": "notes",
+    });
+    expect((await getProjects("fr", dir)).map((p) => p.slug)).toEqual(["a"]);
+  });
+
+  it("sorts by order, then slug", async () => {
+    const dir = await writeContent({
+      "projets/b.fr.mdx": frontmatter({ order: "1" }),
+      "projets/a.fr.mdx": frontmatter({ order: "1" }),
+      "projets/c.fr.mdx": frontmatter({ order: "0" }),
+    });
+    expect((await getProjects("fr", dir)).map((p) => p.slug)).toEqual([
+      "c",
+      "a",
+      "b",
+    ]);
+  });
+
+  it("throws a ContentError on an invalid frontmatter", async () => {
+    const dir = await writeContent({
+      "projets/a.fr.mdx": frontmatter({ status: "done" }),
+    });
+    await expect(getProjects("fr", dir)).rejects.toThrow(
+      "projets/a.fr.mdx: status",
+    );
+  });
+
+  it("loads the real projects", async () => {
+    const projects = await getProjects("fr");
+    expect(projects.map((p) => p.slug)).toEqual([
+      "podcleaner-clips",
+      "podcleaner-editor",
+    ]);
+    expect(projects[0]?.status).toBe("usable");
+    expect(projects[1]?.install).toBeUndefined();
   });
 });
 
