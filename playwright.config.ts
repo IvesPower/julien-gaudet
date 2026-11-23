@@ -26,6 +26,7 @@ export default defineConfig({
     : {
         command: "pnpm start",
         port: 3000,
-        reuseExistingServer: !process.env.CI,
+        // Always start a fresh server: a leftover one would serve an old build.
+        reuseExistingServer: false,
       },
 });

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { LocaleSwitcher } from "@/components/locale-switcher";
+import { SiteNav } from "@/components/site-nav";
 import { resolveLocale } from "@/lib/locale";
 import { getSiteUrl } from "@/lib/site-url";
 
@@ -33,6 +35,10 @@ export default async function LocaleLayout({
       <body>
         <a href="#main">{t("skipToContent")}</a>
         <NextIntlClientProvider>
+          <header>
+            <SiteNav />
+            <LocaleSwitcher />
+          </header>
           <main id="main" tabIndex={-1}>
             {children}
           </main>

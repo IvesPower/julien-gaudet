@@ -18,7 +18,8 @@ When("I open {string}", async ({ page, lastResponse }, path: string) => {
 });
 
 Then("the URL path is {string}", async ({ page }, path: string) => {
-  expect(new URL(page.url()).pathname).toBe(path);
+  // Retry: a client-side navigation (language switcher) may still be running.
+  await expect.poll(() => new URL(page.url()).pathname).toBe(path);
 });
 
 Then(
@@ -42,3 +43,41 @@ Then("the page has no accessibility violations", async ({ page }) => {
     .analyze();
   expect(results.violations).toEqual([]);
 });
+
+When("I press {string}", async ({ page }, key: string) => {
+  await page.keyboard.press(key);
+});
+
+When("I click the link {string}", async ({ page }, name: string) => {
+  const before = page.url();
+  await page.getByRole("link", { name, exact: true }).click();
+  // Wait for the (client-side) navigation, so the next step starts after it.
+  await page.waitForURL((url) => url.href !== before);
+});
+
+Then(
+  "the focused element is the link {string}",
+  async ({ page }, name: string) => {
+    await expect(page.getByRole("link", { name, exact: true })).toBeFocused();
+  },
+);
+
+Then(
+  "the {string} alternate link ends with {string}",
+  async ({ page }, hreflang: string, suffix: string) => {
+    const href = await page
+      .locator(`head link[rel="alternate"][hreflang="${hreflang}"]`)
+      .getAttribute("href");
+    expect(href ? new URL(href).pathname : null).toBe(suffix);
+  },
+);
+
+Then(
+  "the canonical link ends with {string}",
+  async ({ page }, suffix: string) => {
+    const href = await page
+      .locator('head link[rel="canonical"]')
+      .getAttribute("href");
+    expect(href ? new URL(href).pathname : null).toBe(suffix);
+  },
+);

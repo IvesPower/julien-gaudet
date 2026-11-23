@@ -1,13 +1,12 @@
-import { getTranslations } from "next-intl/server";
+import { SkeletonPage } from "@/components/skeleton-page";
 import { resolveLocale } from "@/lib/locale";
+import { pageMetadata } from "@/lib/page-metadata";
+
+export function generateMetadata({ params }: PageProps<"/[locale]">) {
+  return pageMetadata(params, "HomePage", "/");
+}
 
 export default async function HomePage({ params }: PageProps<"/[locale]">) {
   await resolveLocale(params);
-  const t = await getTranslations("HomePage");
-  return (
-    <>
-      <h1>{t("title")}</h1>
-      <p>{t("placeholder")}</p>
-    </>
-  );
+  return <SkeletonPage namespace="HomePage" />;
 }
