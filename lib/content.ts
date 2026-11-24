@@ -1,4 +1,4 @@
-import { readdir, readFile } from "node:fs/promises";
+import { access, readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
 import type { z } from "zod";
@@ -7,6 +7,8 @@ import {
   type Experience,
   experiencesSchema,
   type PeriodDate,
+  type Photo,
+  photosSchema,
   type Profile,
   profileSchema,
   type ProjectFrontmatter,
@@ -225,4 +227,62 @@ export async function getProfile(
 ): Promise<Profile> {
   const file = "profile.json";
   return validate(profileSchema, await readJson(contentDir, file), file);
+}
+
+export type ResolvedPhoto = {
+  id: string;
+  /** Public URL of the served file: "/photos/<id>.jpg". */
+  src: string;
+  width: number;
+  height: number;
+  blurDataURL: string;
+  takenAt?: string;
+  exif?: Photo["exif"];
+  alt: string;
+  caption?: ResolvedText;
+  place?: ResolvedText;
+  credit?: string;
+};
+
+/** The photos in file order, each resolved in the page language. */
+export async function getPhotos(
+  locale: AppLocale,
+  contentDir: string = defaultContentDir,
+  publicDir: string = path.join(process.cwd(), "public"),
+): Promise<ResolvedPhoto[]> {
+  const file = "photos.json";
+  const photos = validate(photosSchema, await readJson(contentDir, file), file);
+  return Promise.all(
+    photos.map(async (p, index) => {
+      if (p.file !== `${p.id}.jpg`) {
+        throw new ContentError(
+          file,
+          `${index}.file`,
+          "expected <id>.jpg: run pnpm photos:meta",
+        );
+      }
+      try {
+        await access(path.join(publicDir, "photos", p.file));
+      } catch {
+        throw new ContentError(
+          file,
+          `${index}.file`,
+          `missing file public/photos/${p.file}`,
+        );
+      }
+      return {
+        id: p.id,
+        src: `/photos/${p.file}`,
+        width: p.width,
+        height: p.height,
+        blurDataURL: p.blurDataURL,
+        takenAt: p.takenAt,
+        exif: p.exif,
+        alt: p.alt[locale],
+        caption: p.caption && resolveText(p.caption, locale),
+        place: p.place && resolveText(p.place, locale),
+        credit: p.credit,
+      };
+    }),
+  );
 }

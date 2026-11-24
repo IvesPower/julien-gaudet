@@ -28,9 +28,9 @@ Site carte de visite bilingue FR / EN en Next.js (App Router) + TypeScript stric
 - `content/` : MDX (un fichier par langue : `slug.fr.mdx`, `slug.en.mdx`) et JSON, validés par `lib/schemas.ts` et lus par `lib/content.ts` (voir `docs/features/content.md`). Ajouter un talk, un projet ou une photo ne doit pas toucher au code.
   - `content/parcours.json` : expériences et formation.
   - `content/projets/<slug>.<langue>.mdx` : un projet par slug, tous affichés sur `/projets` (pas de page par projet pour l'instant).
-  - `content/profile.json` : liens LinkedIn et GitHub.
+  - `content/profile.json` : liens LinkedIn et GitHub, et `instagram` (URL facultative, le lien n'apparaît sur `/photo` que s'il est renseigné).
 - `messages/fr.json`, `messages/en.json` : textes d'interface (`next-intl`).
-- `public/photos/` + `content/photos.json` généré par `pnpm photos:meta`.
+- `public/photos/` + `content/photos.json` : tenu à jour par `pnpm photos:meta`, textes écrits à la main (voir `docs/features/photos.md`).
 - `features/` : scénarios Gherkin et steps Playwright BDD.
 - `docs/features/` : documentation des features.
 
@@ -46,7 +46,7 @@ Node 26 LTS (`.nvmrc`) et pnpm.
 - `pnpm test` : tests unitaires Vitest (`**/*.test.ts`).
 - `pnpm test:e2e` : scénarios Gherkin (`features/`) avec Playwright BDD et `axe`, contre `pnpm start` (lancer `pnpm build` avant). `PLAYWRIGHT_BASE_URL=<url>` les lance contre un site déployé.
 - `pnpm check:static` : après `pnpm build`, échoue si une page de `app/[locale]/` n'est plus prérendue.
-- `pnpm photos:meta` : prévu au lot 3.
+- `pnpm photos:meta <dossier>` : synchronise un dossier d'originaux avec `public/photos/` et `content/photos.json`.
 
 ## MCP du projet
 

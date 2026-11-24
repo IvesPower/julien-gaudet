@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   experienceSchema,
+  photosSchema,
   profileSchema,
   projectFrontmatterSchema,
 } from "./schemas";
@@ -126,9 +127,113 @@ describe("profileSchema", () => {
     ).toBe(true);
   });
 
+  it("accepts a profile without instagram", () => {
+    expect(
+      profileSchema.safeParse({
+        linkedin: "https://www.linkedin.com/in/juliengaudet/",
+        github: "IvesPower",
+      }).success,
+    ).toBe(true);
+  });
+
+  it("rejects an instagram that is not a URL", () => {
+    expect(
+      rejects(profileSchema)({
+        linkedin: "https://www.linkedin.com/in/juliengaudet/",
+        github: "IvesPower",
+        instagram: "julien",
+      }),
+    ).toBe(true);
+  });
+
   it("rejects a linkedin that is not a URL", () => {
     expect(
       rejects(profileSchema)({ linkedin: "juliengaudet", github: "IvesPower" }),
     ).toBe(true);
+  });
+});
+
+const ok = (value: unknown) => photosSchema.safeParse(value).success;
+
+describe("photosSchema", () => {
+  const minimal = {
+    id: "black-and-white",
+    file: "black-and-white.jpg",
+    source: "IMG_0001.jpg",
+    sourceHash: "a".repeat(64),
+    width: 2560,
+    height: 1707,
+    blurDataURL: "data:image/jpeg;base64,AAAA",
+    alt: { fr: "Un lac au matin.", en: "A lake in the morning." },
+  };
+  const full = {
+    ...minimal,
+    takenAt: "2024-05-12",
+    exif: {
+      camera: "Fujifilm X-T5",
+      lens: "XF 35mm",
+      focalLength: 35,
+      aperture: 2,
+      exposureTime: 0.004,
+      iso: 400,
+    },
+    caption: { fr: "Brume.", en: "Mist." },
+    place: { fr: "Annecy" },
+    credit: "Julien Gaudet",
+  };
+  it("accepts a complete photo", () => {
+    expect(ok([full])).toBe(true);
+  });
+
+  it("accepts a minimal photo", () => {
+    expect(ok([minimal])).toBe(true);
+  });
+
+  it("rejects an alt without en", () => {
+    expect(ok([{ ...minimal, alt: { fr: "Un lac." } }])).toBe(false);
+  });
+
+  it("rejects an empty alt.fr", () => {
+    expect(ok([{ ...minimal, alt: { fr: "", en: "A lake." } }])).toBe(false);
+  });
+
+  it("rejects a blank alt.fr", () => {
+    expect(ok([{ ...minimal, alt: { fr: "  ", en: "A lake." } }])).toBe(false);
+  });
+
+  it("rejects an id with spaces and capitals", () => {
+    expect(ok([{ ...minimal, id: "Black and White" }])).toBe(false);
+  });
+
+  it("rejects an id starting with a dash", () => {
+    expect(ok([{ ...minimal, id: "-a" }])).toBe(false);
+  });
+
+  it("rejects an unknown field such as gps", () => {
+    expect(ok([{ ...minimal, gps: { latitude: 45, longitude: 6 } }])).toBe(
+      false,
+    );
+  });
+
+  it("rejects an uppercase file name", () => {
+    expect(ok([{ ...minimal, file: "Lake.JPG" }])).toBe(false);
+  });
+
+  it("rejects two entries with the same id", () => {
+    const result = photosSchema.safeParse([
+      minimal,
+      { ...minimal, source: "IMG_0002.jpg" },
+    ]);
+    expect(result.success).toBe(false);
+    expect(JSON.stringify(result.error?.issues)).toContain("duplicate id");
+  });
+
+  it("rejects two entries with the same source", () => {
+    const result = photosSchema.safeParse([
+      minimal,
+      { ...minimal, id: "other", file: "other.jpg" },
+    ]);
+    expect(result.success).toBe(false);
+    expect(JSON.stringify(result.error?.issues)).toContain("duplicate source");
   });
 });

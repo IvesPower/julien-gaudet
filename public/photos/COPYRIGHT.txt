@@ -1,0 +1,19 @@
+Copyright (c) Julien Gaudet. All rights reserved.
+
+The photographs in this folder are the work of Julien Gaudet. They may not
+be copied, redistributed, modified or used in any other work without his prior
+written permission. The license of the site's source code does not apply to
+these photographs.
+
+To ask for permission, get in touch through the site: https://julien-gaudet.vercel.app
+
+---
+
+Copyright (c) Julien Gaudet. Tous droits réservés.
+
+Les photographies de ce dossier sont l'œuvre de Julien Gaudet. Elles ne
+peuvent être ni copiées, ni redistribuées, ni modifiées, ni réutilisées dans
+une autre œuvre sans son accord écrit préalable. La licence du code source du
+site ne s'applique pas à ces photographies.
+
+Pour demander une autorisation, passer par le site : https://julien-gaudet.vercel.app

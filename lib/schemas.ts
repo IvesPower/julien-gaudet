@@ -64,5 +64,77 @@ export type ProjectFrontmatter = z.infer<typeof projectFrontmatterSchema>;
 export const profileSchema = z.strictObject({
   linkedin: z.url(),
   github: nonEmpty,
+  instagram: z.url().optional(),
 });
 export type Profile = z.infer<typeof profileSchema>;
+
+const slug = /^[a-z0-9]+(-[a-z0-9]+)*$/;
+
+export const photoIdSchema = z.string().regex(slug, "expected a kebab-case id");
+
+/** Shooting data kept from the original; never contains GPS. */
+export const photoExifSchema = z.strictObject({
+  camera: nonEmpty.optional(),
+  lens: nonEmpty.optional(),
+  /** Focal length in millimetres. */
+  focalLength: z.number().positive().optional(),
+  aperture: z.number().positive().optional(),
+  /** Exposure time in seconds. */
+  exposureTime: z.number().positive().optional(),
+  iso: z.int().positive().optional(),
+});
+export type PhotoExif = z.infer<typeof photoExifSchema>;
+
+export const photoSchema = z.strictObject({
+  id: photoIdSchema,
+  /** Name of the served file under `public/photos/`, kept by the script. */
+  file: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*\.jpg$/, "expected <id>.jpg"),
+  /** Name of the original file the photo comes from. */
+  source: nonEmpty,
+  sourceHash: z.string().regex(/^[0-9a-f]{64}$/, "expected a SHA-256 hex"),
+  width: z.int().positive(),
+  height: z.int().positive(),
+  blurDataURL: z.string().startsWith("data:image/"),
+  takenAt: z
+    .string()
+    .regex(
+      /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/,
+      "expected YYYY-MM-DD",
+    )
+    .optional(),
+  exif: photoExifSchema.optional(),
+  alt: z.strictObject({ fr: nonEmpty, en: nonEmpty }),
+  caption: localizedTextSchema.optional(),
+  place: localizedTextSchema.optional(),
+  credit: nonEmpty.optional(),
+});
+export type Photo = z.infer<typeof photoSchema>;
+
+export const photosSchema = z
+  .array(photoSchema)
+  .superRefine((photos, ctx) => {
+    const seen = new Set<string>();
+    photos.forEach(({ id }, index) => {
+      if (seen.has(id)) {
+        ctx.addIssue({
+          code: "custom",
+          message: `duplicate id "${id}"`,
+          path: [index, "id"],
+        });
+      }
+      seen.add(id);
+    });
+  })
+  .superRefine((photos, ctx) => {
+    const seen = new Set<string>();
+    photos.forEach(({ source }, index) => {
+      if (seen.has(source)) {
+        ctx.addIssue({
+          code: "custom",
+          message: `duplicate source "${source}"`,
+          path: [index, "source"],
+        });
+      }
+      seen.add(source);
+    });
+  });

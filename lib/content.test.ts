@@ -1,9 +1,11 @@
-import { mkdir, mkdtemp, writeFile } from "node:fs/promises";
+import { mkdir, mkdtemp, readFile, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 import {
+  ContentError,
   getExperiences,
+  getPhotos,
   getProfile,
   getProjects,
   resolveText,
@@ -213,4 +215,112 @@ describe("getProfile", () => {
   it("loads the real profile", async () => {
     expect((await getProfile()).github).toBe("IvesPower");
   });
+});
+
+const photo = (id: string, fields: Record<string, unknown> = {}) => ({
+  id,
+  file: `${id}.jpg`,
+  source: `${id}-original.jpg`,
+  sourceHash: "a".repeat(64),
+  width: 2560,
+  height: 1440,
+  blurDataURL: "data:image/webp;base64,AAAA",
+  alt: { fr: "Alt FR", en: "Alt EN" },
+  ...fields,
+});
+
+/** A content folder and a public folder holding the given served files. */
+async function photoDirs(
+  photos: unknown[],
+  served: string[],
+): Promise<{ contentDir: string; publicDir: string }> {
+  const contentDir = await writeContent({
+    "photos.json": JSON.stringify(photos),
+  });
+  const publicDir = await mkdtemp(path.join(tmpdir(), "public-"));
+  await mkdir(path.join(publicDir, "photos"));
+  await Promise.all(
+    served.map((name) => writeFile(path.join(publicDir, "photos", name), "")),
+  );
+  return { contentDir, publicDir };
+}
+
+describe("getPhotos", () => {
+  it("keeps the file order and resolves the texts", async () => {
+    const { contentDir, publicDir } = await photoDirs(
+      [
+        photo("b", {
+          caption: { fr: "Légende" },
+          place: { fr: "Lille", en: "Lille, France" },
+          credit: "Julien",
+        }),
+        photo("a", { takenAt: "2024-05-01", exif: { iso: 100 } }),
+      ],
+      ["a.jpg", "b.jpg"],
+    );
+    const photos = await getPhotos("en", contentDir, publicDir);
+    expect(photos.map((p) => p.id)).toEqual(["b", "a"]);
+    expect(photos[0]).toMatchObject({
+      src: "/photos/b.jpg",
+      width: 2560,
+      height: 1440,
+      alt: "Alt EN",
+      caption: { text: "Légende", lang: "fr" },
+      place: { text: "Lille, France", lang: "en" },
+      credit: "Julien",
+    });
+    expect(photos[1]).toMatchObject({
+      alt: "Alt EN",
+      takenAt: "2024-05-01",
+      exif: { iso: 100 },
+    });
+  });
+
+  it("fails when a served file is missing", async () => {
+    const { contentDir, publicDir } = await photoDirs([photo("a")], []);
+    await expect(getPhotos("fr", contentDir, publicDir)).rejects.toThrow(
+      "photos.json: 0.file: missing file public/photos/a.jpg",
+    );
+  });
+
+  it("fails when the file is not <id>.jpg", async () => {
+    const { contentDir, publicDir } = await photoDirs(
+      [photo("a"), photo("b", { file: "other.jpg" })],
+      ["a.jpg", "other.jpg"],
+    );
+    await expect(getPhotos("fr", contentDir, publicDir)).rejects.toThrow(
+      "photos.json: 1.file: expected <id>.jpg: run pnpm photos:meta",
+    );
+  });
+
+  it("names the file and the field of an invalid photo", async () => {
+    const { contentDir, publicDir } = await photoDirs(
+      [photo("a", { alt: { fr: "Alt", en: "" } })],
+      ["a.jpg"],
+    );
+    const error = await getPhotos("fr", contentDir, publicDir).catch(
+      (e: unknown) => e,
+    );
+    expect(error).toBeInstanceOf(ContentError);
+    expect(error).toHaveProperty(
+      "message",
+      expect.stringContaining("photos.json"),
+    );
+    expect(error).toHaveProperty("message", expect.stringContaining("alt.en"));
+  });
+
+  it.each(["fr", "en"] as const)(
+    "the real photos are valid in %s",
+    async (locale) => {
+      const photos = await getPhotos(locale);
+      const raw: unknown = JSON.parse(
+        await readFile(
+          path.join(process.cwd(), "content", "photos.json"),
+          "utf8",
+        ),
+      );
+      expect(photos).toHaveLength(Array.isArray(raw) ? raw.length : -1);
+      expect(photos.every((p) => p.alt.length > 0)).toBe(true);
+    },
+  );
 });

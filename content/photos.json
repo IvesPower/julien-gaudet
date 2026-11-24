@@ -1,0 +1,2175 @@
+[
+  {
+    "id": "kirkjufell-dusk",
+    "file": "kirkjufell-dusk.jpg",
+    "source": "kirkjufell.jpg",
+    "sourceHash": "ea9cb898afbe0fdcbbf111b077d08fddfec41a3b56c8f271f974975ec667d1c5",
+    "width": 2560,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwAQCdASoQAAkAAUAmJZQCdADhj6/OPAAA/vz+HbXnf9wC50Q/vD2kFKzJ378HTxYUCpavtkZmdBylM7q1u58h6HregOesI+y772L8foujMkXfjUgsW/WipjhXWxiZwiW9Sj0S1tNhfaNgBV1x13gAAAA=",
+    "alt": {
+      "fr": "Vue aérienne d’une montagne en silhouette au bord d’un fjord, avec une route en courbe éclairée par le soleil bas.",
+      "en": "Aerial view of a silhouetted mountain on a fjord, with a curving road lit by the low sun."
+    },
+    "caption": { "fr": "Soleil rasant", "en": "Low sun" },
+    "place": { "fr": "Kirkjufell, Islande", "en": "Kirkjufell, Iceland" },
+    "takenAt": "2023-07-31",
+    "exif": {
+      "camera": "DJI Mini 2",
+      "focalLength": 4.49,
+      "aperture": 2.8,
+      "exposureTime": 0.001,
+      "iso": 100
+    }
+  },
+  {
+    "id": "namba-yasaka-lion",
+    "file": "namba-yasaka-lion.jpg",
+    "source": "A7403707.jpg",
+    "sourceHash": "f1ca3d8a822bbaa466b8c6a9ebb1d8fc2b31913c6436f2946a2e703af8681837",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAABQAgCdASoLABAAAUAmJYwCdAYsP22jwvpsKUAA/uvG3R9e/AHryUpuXZQPPb/jsX/uSbCOafiBil//cvZ2PyNX8fzdbYS3B2q+7gA/2n2pS3EX+6zWO68PDjeeA8fRah1UEfcegIk2oSP38XHlYpIJUbLKGVVkYIn5RfgbU1irOZbN6ycX0AAA",
+    "alt": {
+      "fr": "Une immense tête de lion sculptée, gueule ouverte, abrite la scène d’un sanctuaire ; un homme la regarde.",
+      "en": "A huge carved lion head with an open mouth houses a shrine stage; a man looks up at it."
+    },
+    "caption": { "fr": "La gueule du lion", "en": "The lion’s mouth" },
+    "place": { "fr": "Osaka, Japon", "en": "Osaka, Japan" },
+    "takenAt": "2026-07-30",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 24,
+      "aperture": 6.3,
+      "exposureTime": 0.004,
+      "iso": 100
+    }
+  },
+  {
+    "id": "cafe-mural-dusk",
+    "file": "cafe-mural-dusk.jpg",
+    "source": "P1051586-Enhanced-NR-2.jpg",
+    "sourceHash": "88d62afc18e518bed774844042bfe53c61df1b0d17b27d5337e2d2ec83455d6a",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACQAgCdASoMABAAAUAmJQBOiP/xayPKLLdVy0dnwAD+8IfX99yxXYN6qV6POXFE09qTQ2x54SFSnox7bdQWwnACln+GuefK7/whLYCj6KKl2XzMWDZq9hfy4P0jfsgaZrhZ8moDzAt/3xyc8Dtdvqrmaq1OCF9eP9rjwT7ZXbasHeodGDFNZpkOYQAAAA==",
+    "alt": {
+      "fr": "Un café occupe le rez-de-chaussée d’un immeuble de briques dont le flanc est couvert d’une fresque colorée, sous un ciel rose.",
+      "en": "A café sits on the ground floor of a brick building whose side is covered by a colorful mural, under a pink sky."
+    },
+    "caption": { "fr": "Fresque au crépuscule", "en": "Mural at dusk" },
+    "place": { "fr": "Montréal, Canada", "en": "Montreal, Canada" },
+    "takenAt": "2025-06-05",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 1.7,
+      "exposureTime": 0.0125,
+      "iso": 200
+    }
+  },
+  {
+    "id": "empire-state-night",
+    "file": "empire-state-night.jpg",
+    "source": "empy night.jpg",
+    "sourceHash": "dcaf43974580cdb3646b977076fb71981aef5d74a312664e9f533ca5d908dda7",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAQCdASoQAAwAAUAmJZwCdAEOZ2NgAAD+/yB5eCHB6sZVXHgtPhOD7Ec0Aql5WZ1YUir2d4SCg8ClEI/2zSemJMzaBYXHqmEliQPa/4/6YmWE5EdtBx/f3uQAAA==",
+    "alt": {
+      "fr": "L’Empire State Building, illuminé en bleu, domine les tours de Manhattan la nuit.",
+      "en": "The Empire State Building, lit in blue, towers over Manhattan at night."
+    },
+    "caption": { "fr": "Bleu Empire", "en": "Empire blue" },
+    "place": { "fr": "New York, États-Unis", "en": "New York, USA" },
+    "takenAt": "2019-12-23",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 1.7,
+      "exposureTime": 0.016666666666666666,
+      "iso": 3200
+    }
+  },
+  {
+    "id": "tree-fern-trail",
+    "file": "tree-fern-trail.jpg",
+    "source": "P1052618.jpg",
+    "sourceHash": "d2fab2c99e5c9f58b361682a5b0325edb7d3f6af3b40cc7bcdc6948614f2bdda",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABQAgCdASoMABAAAUAmJQBdgCMDNbHvxMOAbgAA/sK/HjEQH0fvlADfYlosr2kqrxZjn5JhG+lsm5q+6lzfa7OxthRyzPLfUpNthyNM7266T3DDM+5p2xDnaHAZ+Tj7VOr8E2TM6PTNhTVQtwnwvAAA",
+    "alt": {
+      "fr": "Un sentier de terre rouge s’enfonce dans une forêt de fougères arborescentes.",
+      "en": "A red dirt trail leads into a forest of tree ferns."
+    },
+    "caption": { "fr": "Le sentier", "en": "The trail" },
+    "takenAt": "2025-09-22",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 9,
+      "exposureTime": 0.008,
+      "iso": 200
+    }
+  },
+  {
+    "id": "kinkaku-ji",
+    "file": "kinkaku-ji.jpg",
+    "source": "A7403524.jpg",
+    "sourceHash": "5e5a67e8ca21345b3b34b67b93eb099ebafe5e7a46bb547bc9f850abc8c6a023",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAACwAgCdASoQAAsAAUAmJZACdAfwIvLdAG9/dB7EyUAA/uu5hU8sJLNifRWu5tQTcUgtYp6ZsXLVPFFEQX7FIsIjgtHl2qa3kMv30uqNKEIeAwxWli9rGeBc9CTKhZ4JQO4n8E6DOptfmNNfBkD9Wgy5i1JBVh9wAAA=",
+    "alt": {
+      "fr": "Le pavillon d’or se reflète dans un étang entouré de pins et de collines boisées.",
+      "en": "The Golden Pavilion reflects in a pond surrounded by pines and wooded hills."
+    },
+    "caption": { "fr": "Le pavillon d’or", "en": "The Golden Pavilion" },
+    "place": { "fr": "Kyoto, Japon", "en": "Kyoto, Japan" },
+    "takenAt": "2026-07-29",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 46.9,
+      "aperture": 5.6,
+      "exposureTime": 0.004,
+      "iso": 100
+    }
+  },
+  {
+    "id": "storm-over-the-meadow",
+    "file": "storm-over-the-meadow.jpg",
+    "source": "daam.jpg",
+    "sourceHash": "096158576a16c20c9a390e9ab5cd6a8b8f39b7d99936ec1d0c44e37588fded5c",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwAQCdASoQAAwAAUAmJaACdAEUWZggdgAA/uoeX5jRn7pEYYM727ddMV2A0F5pefRG/vF7cmWv4Rs8QkQbwdKEA2gzNt51CQuyOeCT3CU4s1z7VbcdX6nVbgfDZzi4TCaQ/kk5eepJ+AAA",
+    "alt": {
+      "fr": "Un randonneur se tient près de deux sapins sur une prairie dorée, face à des montagnes sous un ciel d’orage.",
+      "en": "A hiker stands by two fir trees in a golden meadow, facing mountains under a stormy sky."
+    },
+    "caption": { "fr": "Avant l’orage", "en": "Before the storm" },
+    "takenAt": "2021-07-25",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 13,
+      "aperture": 5.6,
+      "exposureTime": 0.002,
+      "iso": 400
+    }
+  },
+  {
+    "id": "tokyo-alley-smoker",
+    "file": "tokyo-alley-smoker.jpg",
+    "source": "A7402715.jpg",
+    "sourceHash": "b0352d5ebf1760a17625c47732b53995505ab89616f0853e9a474a9c8266526b",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoLABAAAUAmJaQAAlvJ+MuckAD+/i5ZR3MKMAaoP2wslfkj/cthi99tHabzOfjQmDJB6hgTf+70L/C9gD2cqZY9KcbXKfwuBsgAAA==",
+    "alt": {
+      "fr": "Au fond d’une ruelle étroite couverte de câbles et d’autocollants, un homme en chemise fume une cigarette.",
+      "en": "At the end of a narrow alley covered in cables and stickers, a man in a shirt smokes a cigarette."
+    },
+    "caption": { "fr": "Pause dans la ruelle", "en": "Alley break" },
+    "place": { "fr": "Tokyo, Japon", "en": "Tokyo, Japan" },
+    "takenAt": "2026-07-22",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 70,
+      "aperture": 2.8,
+      "exposureTime": 0.0125,
+      "iso": 4000
+    }
+  },
+  {
+    "id": "empire-state-sunset",
+    "file": "empire-state-sunset.jpg",
+    "source": "empy.jpg",
+    "sourceHash": "28ef05e56abae074f0eb8d313008a131365986d81876d22470d955f99503b472",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwAgCdASoQAAwAAUAmJagCdFkAfoAB0xDltkGAAP7m6KA2AZxW2NND14bLEd7ZtX5wWePZz7u0Td8pY6sev0KND/Kpvh9eoZMKLNcj8xpeXEizX1++J2Vun6Q0s3X8ZJf/fYSEAAA=",
+    "alt": {
+      "fr": "L’Empire State Building se détache sur un coucher de soleil orange, au-dessus de Manhattan dans la brume.",
+      "en": "The Empire State Building stands out against an orange sunset over hazy Manhattan."
+    },
+    "caption": { "fr": "Manhattan au couchant", "en": "Manhattan at sunset" },
+    "place": { "fr": "New York, États-Unis", "en": "New York, USA" },
+    "takenAt": "2019-12-22",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 29,
+      "aperture": 6.3,
+      "exposureTime": 0.00625,
+      "iso": 200
+    }
+  },
+  {
+    "id": "silhouette-and-lanterns",
+    "file": "silhouette-and-lanterns.jpg",
+    "source": "A7402483.jpg",
+    "sourceHash": "846b3481ef75d57355f1e5ca54e81b30364f2b9882deb82267697c3810c1601f",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAACwAgCdASoLABAAAUAmJZwCdAaeDoJ9uPOsJt164AAA/vpQjYvU+wYO8XL8vooX/zHWnWA3Cy0nU/0j6PL8ZOrdLVjvS91Q0fa/EfWbXAgwq59XynI/T2D+7MuzTItR+O1S42s6zwriUMn2zRubG8gd7Mhq/+8Lullkc4gJB2AvbG9OoYAAAA==",
+    "alt": {
+      "fr": "La silhouette d’une femme tenant un parapluie se découpe devant des centaines de lanternes blanches suspendues.",
+      "en": "The silhouette of a woman holding an umbrella stands out against hundreds of hanging white lanterns."
+    },
+    "caption": {
+      "fr": "Silhouette et lanternes",
+      "en": "Silhouette and lanterns"
+    },
+    "place": { "fr": "Corée du Sud", "en": "South Korea" },
+    "takenAt": "2026-07-20",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 70,
+      "aperture": 2.8,
+      "exposureTime": 0.0125,
+      "iso": 640
+    }
+  },
+  {
+    "id": "stokksnes-black-dunes",
+    "file": "stokksnes-black-dunes.jpg",
+    "source": "darkness.jpg",
+    "sourceHash": "3fff682a7f64de9037eeffe05ea35b9d80436016d2ac0fce90ba95de01e31ee8",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQAAwAAUAmJZQCdAE2mOKkAYyAAP5KBTFHUuWy0TH1m8ertXX/suqvLaCeZ5c7xA/6vARjds93BO+pfGyOzz+dUFZzSmEBiyZ/AAAA",
+    "alt": {
+      "fr": "Une silhouette se tient sur des dunes de sable noir face à des montagnes dentelées sous un ciel d’orage.",
+      "en": "A figure stands on black sand dunes facing jagged mountains under a stormy sky."
+    },
+    "caption": { "fr": "Obscurité", "en": "Darkness" },
+    "place": { "fr": "Stokksnes, Islande", "en": "Stokksnes, Iceland" },
+    "takenAt": "2023-07-28",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 15,
+      "aperture": 22,
+      "exposureTime": 0.04,
+      "iso": 400
+    }
+  },
+  {
+    "id": "calgary-steel-trees",
+    "file": "calgary-steel-trees.jpg",
+    "source": "farine fiveroses-1.jpg",
+    "sourceHash": "b77e8fe1aadaea248f9ffe77492c8fbf36a9b255c43b7d5b0880fba45ba29b64",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABQAgCdASoMABAAAUAmJZACdAEYEYma8H7LLwAA/vx2votvt2gWa/Udfv6T41/7jCX5C15uN6VgidCdEIVT3uy2OjFHUnb/zyhnnfoXdEGfTLj+kr93TVOsARj99nuv+edD/SZmoWwayOwZ/RIdpIUfP4hQIlUWVG+Fows+DejRkPF5oe+x06yZAAA=",
+    "alt": {
+      "fr": "Une femme en jupe blanche marche entre de grandes sculptures d’acier en forme d’arbres, au pied de gratte-ciel.",
+      "en": "A woman in a white skirt walks between tall steel tree sculptures at the foot of skyscrapers."
+    },
+    "caption": { "fr": "Arbres d’acier", "en": "Steel trees" },
+    "place": { "fr": "Calgary, Canada", "en": "Calgary, Canada" },
+    "takenAt": "2021-07-17",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 12,
+      "aperture": 4.5,
+      "exposureTime": 0.0005,
+      "iso": 200
+    }
+  },
+  {
+    "id": "ine-bay-gulls",
+    "file": "ine-bay-gulls.jpg",
+    "source": "A7404030.jpg",
+    "sourceHash": "244867ddd82542b9f5a3a1989f75466b9a141983463ac8150d560da108b1d9af",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABQAgCdASoQAAsAAUAmJQBOj+ADMTKw1WYi9wAA/vr/LxHlAivQG+PwCiw3WGz8Uv+qzNhqAO3ioRWdevdf207+AjIqc99I+LSk728Ao0v/PivqdgyDZkMtQYM6iSOj1ZH8f/Q9JIUlxCFvf1O+iQAA",
+    "alt": {
+      "fr": "Des mouettes suivent le sillage d’un bateau face à un village de pêcheurs et à ses collines boisées.",
+      "en": "Gulls follow a boat’s wake facing a fishing village and its wooded hills."
+    },
+    "caption": { "fr": "Dans le sillage", "en": "In the wake" },
+    "place": { "fr": "Ine, Japon", "en": "Ine, Japan" },
+    "takenAt": "2026-07-31",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 70,
+      "aperture": 5,
+      "exposureTime": 0.004,
+      "iso": 50
+    }
+  },
+  {
+    "id": "brick-corner-sunset",
+    "file": "brick-corner-sunset.jpg",
+    "source": "P1051302-Enhanced-NR.jpg",
+    "sourceHash": "1c1288d9ca6de5efebbfaeeef74875e1e6786b5ec0c44195e0f6b93507e68199",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAABQAgCdASoMABAAAUAmJQBOgMV47ceHTabgdsAA/vm5Zr8ImVQxGlYoX3wGbvFTKz7JAK7M4ZBGPww2fru/Mat9fYSn6w6W6JbHlORND4eP8/Hzihxwsdkekyi8E+uBrFQE7vPta0lDy0HapDibtCfADh8taONAAAA=",
+    "alt": {
+      "fr": "Un immeuble de briques à l’angle d’une rue, avec un escalier extérieur, baigné de lumière orangée au coucher du soleil.",
+      "en": "A corner brick building with an outdoor staircase, bathed in orange light at sunset."
+    },
+    "caption": { "fr": "Briques au couchant", "en": "Bricks at sunset" },
+    "place": { "fr": "Montréal, Canada", "en": "Montreal, Canada" },
+    "takenAt": "2025-06-02",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 4.5,
+      "exposureTime": 0.008,
+      "iso": 200
+    }
+  },
+  {
+    "id": "kabukicho-gate",
+    "file": "kabukicho-gate.jpg",
+    "source": "A7402982.jpg",
+    "sourceHash": "6e84c51fe1998bd4cbc86d25ceeb5bdc612db2ee4d47a17902cbad731151bb6f",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABwAgCdASoLABAAAUAmJbACdDiAASr+wYG2cq4QAP798bw9Mxbw436TSL5GKHvZ9y82tgH/+4JiJgLee0NELs3HFGN/330ewbA7W2U7GXHeuK9aSPaknXykTiLvgPrEDfQdsZVl0QbErHyd5Ac/M/m3dfz9uPdFXMxiiTx8mMDsWSaE/bjVm9SUsAA=",
+    "alt": {
+      "fr": "Une arche lumineuse rouge marque l’entrée de Kabukicho, où une foule attend au passage piéton.",
+      "en": "A glowing red arch marks the entrance to Kabukicho, where a crowd waits at the crosswalk."
+    },
+    "caption": { "fr": "Porte de Kabukicho", "en": "Kabukicho gate" },
+    "place": { "fr": "Tokyo, Japon", "en": "Tokyo, Japan" },
+    "takenAt": "2026-07-24",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 51.2,
+      "aperture": 2.8,
+      "exposureTime": 0.016666666666666666,
+      "iso": 125
+    }
+  },
+  {
+    "id": "slot-canyon-sky",
+    "file": "slot-canyon-sky.jpg",
+    "source": "my best picture.jpg",
+    "sourceHash": "616cdce32d131a9c34863e112d30df7dbcf89760d66bf54ca52e99eabc6c741d",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABwAgCdASoMABAAAUAmJagCdDBEyVAE//SoAaWAAP7+6XfIvlqdzPhnq8RgQxiel0GT+ZZSVIYRwpe+3bvF15lBJI0MsiXtfDLj0ecX7mg3hH/xBdP6dSSoN6kh5Cf27eQ2IjoH+3l7G17e1K2gDcOiFGx+r3Mvs/I1Aj6ojrmZn7t0fxEIGbfECE8kgAAA",
+    "alt": {
+      "fr": "Vu d’en bas, un canyon étroit aux parois ondulées de grès rouge s’ouvre sur un ciel bleu.",
+      "en": "Seen from below, a narrow canyon with wavy red sandstone walls opens onto a blue sky."
+    },
+    "caption": { "fr": "Ouverture", "en": "Opening" },
+    "place": { "fr": "Arizona, États-Unis", "en": "Arizona, USA" },
+    "takenAt": "2022-07-20",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 12,
+      "aperture": 3.5,
+      "exposureTime": 0.003125,
+      "iso": 200
+    }
+  },
+  {
+    "id": "waterfall-gorge-bw",
+    "file": "waterfall-gorge-bw.jpg",
+    "source": "black and white.jpg",
+    "sourceHash": "62f2c51ea281397a6358939a8ee8863d82abdb6594406485da5d5e85ff2505a9",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABwAgCdASoMABAAAUAmJaQATgA2TLV+1Ul+EUoAAP78dvZwBmT8Ns7jMvNHN3hP5N+JGSB1r6XL5cXyt8lraIDb8a3+Nrj06+pCAUdLWd9pYNGi++hF9wD02RLm9ttsfOu3fjpIyUv0maeAAAA=",
+    "alt": {
+      "fr": "En noir et blanc, une silhouette se tient au pied d’une cascade qui tombe dans une gorge étroite.",
+      "en": "In black and white, a figure stands at the foot of a waterfall dropping into a narrow gorge."
+    },
+    "caption": { "fr": "Sous la cascade", "en": "Beneath the falls" },
+    "place": { "fr": "Islande", "en": "Iceland" },
+    "takenAt": "2023-07-26",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 12,
+      "aperture": 4.5,
+      "exposureTime": 0.0025,
+      "iso": 200
+    }
+  },
+  {
+    "id": "waterfall-green-cliffs",
+    "file": "waterfall-green-cliffs.jpg",
+    "source": "P1052098-Enhanced-NR.jpg",
+    "sourceHash": "5c5645647c98192141212467d74935ebbd2a7026f4602149237d4dffbbd9e802",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAwAAUAmJZQCdAEe/RPVKnyEAP7+eNLEWnFNCUX+9fjfH3Jy4jRsl+8huA1R4fa5Erc06kz0LZ4D8AdqoSqlssnen7bpPfGWP+D5OCaDBsSZeAA=",
+    "alt": {
+      "fr": "Une très haute cascade tombe le long de falaises couvertes de végétation, sous des nuages bas.",
+      "en": "A very tall waterfall drops down vegetation-covered cliffs under low clouds."
+    },
+    "caption": { "fr": "Le voile d’eau", "en": "Veil of water" },
+    "takenAt": "2025-09-14",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 35-100/F4.0-5.6",
+      "focalLength": 35,
+      "aperture": 4,
+      "exposureTime": 0.0025,
+      "iso": 200
+    }
+  },
+  {
+    "id": "pagoda-under-leaves",
+    "file": "pagoda-under-leaves.jpg",
+    "source": "A7403079.jpg",
+    "sourceHash": "21927fe03729aa37d3bb262cfa894033208ac8d99e2838ec40b7383a2bb29c71",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQAgCdASoLABAAAUAmJYgCdEf/gY+gK48mtAAA/rfyEiQPvJ1XuZ1wOns1oe22XgSUXHfOzJd5t9XzSP65aTqfH6Wv1LdwEnF1n6bYvyA0qSv8vmHwv/a0FkU746B6LSo7vpLovhS1/G37ujLCGGWVYK2hr1HaT1eoSaObN554zPcVjobHKHuA4gAAAA==",
+    "alt": {
+      "fr": "Une pagode en bois à trois étages, ornée de clochettes, apparaît à travers un feuillage vert.",
+      "en": "A three-story wooden pagoda hung with small bells appears through green foliage."
+    },
+    "caption": {
+      "fr": "Pagode sous les feuilles",
+      "en": "Pagoda under leaves"
+    },
+    "place": { "fr": "Japon", "en": "Japan" },
+    "takenAt": "2026-07-25",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 36,
+      "aperture": 18,
+      "exposureTime": 0.025,
+      "iso": 500
+    }
+  },
+  {
+    "id": "misty-lake-dock",
+    "file": "misty-lake-dock.jpg",
+    "source": "chachou lake.jpg",
+    "sourceHash": "780c8e16d71b10b1244d0d90b425bbda8490afa7aa405f93f4bf3debccfac067",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAACQAgCdASoQAAwAAUAmJagCdGuAwQADq3jma4ssaAD++i44VbiElLi7D9bcmENpeZGIyHhJVdMhwlNJk2uf9DYwiF8wBEq7nFXbjvxifDon/RVN9Hy2Bxi2Xg87xH52FGIz9t1BhHkfcWU0CVb7A5kHT2JrR/Y05ON12okfT0RYl0X1bhYAAA==",
+    "alt": {
+      "fr": "Une femme marche au bout d’un quai sur un lac calme voilé de brume, face à des collines aux couleurs d’automne.",
+      "en": "A woman walks to the end of a dock on a calm, misty lake facing hills in autumn colors."
+    },
+    "caption": { "fr": "Brume d’automne", "en": "Autumn mist" },
+    "takenAt": "2020-10-12",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 11,
+      "exposureTime": 0.003125,
+      "iso": 200
+    }
+  },
+  {
+    "id": "chicago-l-train",
+    "file": "chicago-l-train.jpg",
+    "source": "chicago subway.jpg",
+    "sourceHash": "f090897c17ea607e7e147722baf390cf3097ce3172b3d106700fdcd5e19bfbf6",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAABQAgCdASoMABAAAUAmJZACdAYvro/LRqNQ+kAA/uZJmpJ9w8EbD/+2mfYOcvPJ9uWNX3BAu8Ee+hBZEPeytqIZOkX37N7E8R/79g64qW5pX37wZiYgaKsOS8J0XRZWATDVE9O9tGKVKXqsAMIkZ4DdqmfyokeLtrQ5YP+V1zNvwFocjAAAAA==",
+    "alt": {
+      "fr": "Une rame du métro aérien prend un virage entre des immeubles de briques et une tour de verre.",
+      "en": "An elevated train rounds a curve between brick buildings and a glass tower."
+    },
+    "caption": { "fr": "Le métro aérien", "en": "The L" },
+    "place": { "fr": "Chicago, États-Unis", "en": "Chicago, USA" },
+    "takenAt": "2022-04-17",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 12,
+      "aperture": 3.5,
+      "exposureTime": 0.0004,
+      "iso": 200
+    }
+  },
+  {
+    "id": "yasaka-pagoda-street",
+    "file": "yasaka-pagoda-street.jpg",
+    "source": "A7403230.jpg",
+    "sourceHash": "cd58ddae18a585884c99ce3903a609ec04780646de5bb8cbdc97d25adb3f7ffa",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACwAgCdASoLABAAAUAmJZQC7AYut5kL5CByqzMSVgAA/vxDQEhIj+9ojNtj0IWOiSFKZ//jrYoUTgrwTXOh2yV3isgjJfy95Pr7xSQQTv6778F/My0/MVQd9As/+FyX+mnJR5N/H5WKUi27zcTR6kMmPw6bZUyc+kdmyuVw2zrXNcWtndLnhTTlNrzwwE4LpAAAAA==",
+    "alt": {
+      "fr": "Une rue pavée en pente mène à une pagode à cinq étages ; une enfant marche au premier plan.",
+      "en": "A sloping paved street leads to a five-story pagoda; a child walks in the foreground."
+    },
+    "caption": { "fr": "Vers la pagode", "en": "Toward the pagoda" },
+    "place": { "fr": "Kyoto, Japon", "en": "Kyoto, Japan" },
+    "takenAt": "2026-07-26",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 56.2,
+      "aperture": 8,
+      "exposureTime": 0.0125,
+      "iso": 100
+    }
+  },
+  {
+    "id": "montmorency-falls",
+    "file": "montmorency-falls.jpg",
+    "source": "momorency.jpg",
+    "sourceHash": "af7e1193eb5400b075069d21865c849cfbe67600e6ca4ccce19f58ebc4513ea0",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAACwAgCdASoQAAwAAUAmJQBOiZAKhEIiAwOnqZWehSgA/vvvZdgE8SfC4WKA7Zv/SoFQeWek7Fq5Sq5Admm8ebbxWk8PwZTDysiPVMf+jYTJ32PeEnY+SXHd0kyq0Gyr12/jUX71+JDvR6Dc10UTyBOF4V+e4yPka6KZex7W0e6E/phMlS4tpw8nH568M/5993qWgjAA",
+    "alt": {
+      "fr": "Une large chute d’eau tombe d’une falaise rocheuse, sous une passerelle suspendue et un ciel bleu.",
+      "en": "A wide waterfall drops from a rocky cliff beneath a suspension footbridge and a blue sky."
+    },
+    "caption": { "fr": "La chute", "en": "The falls" },
+    "place": {
+      "fr": "Chute Montmorency, Canada",
+      "en": "Montmorency Falls, Canada"
+    },
+    "takenAt": "2019-09-29",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 14,
+      "aperture": 11,
+      "exposureTime": 0.00125,
+      "iso": 200
+    }
+  },
+  {
+    "id": "frostastadavatn-from-above",
+    "file": "frostastadavatn-from-above.jpg",
+    "source": "the island-5.jpg",
+    "sourceHash": "fe9fe7bcd97aa62123999961ee25e39fb3ce1caa8cf071d43a9a743e457b3dc1",
+    "width": 2560,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoQAAkAAUAmJQBOgCHg6iqsEkQAAP77QPn5T9HipU4YFYbtFBFMHJ1+EXAW+CTxeqtIi/8+F2Urkt2y2QaosQyOVvyqptBIjtRsgoXEk3kYL0b720O5bhAA",
+    "alt": {
+      "fr": "Vue aérienne d’un lac sombre bordé d’une rive de sable noir et de collines volcaniques sous la brume.",
+      "en": "Aerial view of a dark lake edged by a black sand shore and volcanic hills under mist."
+    },
+    "caption": { "fr": "Rive noire", "en": "Black shore" },
+    "place": {
+      "fr": "Frostastaðavatn, Islande",
+      "en": "Frostastaðavatn, Iceland"
+    },
+    "takenAt": "2023-07-26",
+    "exif": {
+      "camera": "DJI Mini 2",
+      "focalLength": 4.49,
+      "aperture": 2.8,
+      "exposureTime": 0.003125,
+      "iso": 100
+    }
+  },
+  {
+    "id": "shibuya-crossing-above",
+    "file": "shibuya-crossing-above.jpg",
+    "source": "A7402696.jpg",
+    "sourceHash": "e2c8b770647424c8ecd84dd983e1fd2ae9b7699b7f8ff8162ce3349bc5d91f4c",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABQAgCdASoQAAsAAUAmJZwCdAERHpsF1T+36gAA/v3v24taika3hZxQcvusUEBxslP3j80ffLH1Fsn0JuhB+WYkrIn3Pc91tZvAckoeMPuAAA==",
+    "alt": {
+      "fr": "Vue d’en haut, une foule de piétons traverse un large passage zébré dans toutes les directions.",
+      "en": "Seen from above, a crowd of pedestrians crosses a wide zebra crossing in every direction."
+    },
+    "caption": { "fr": "La foule", "en": "The crowd" },
+    "place": { "fr": "Tokyo, Japon", "en": "Tokyo, Japan" },
+    "takenAt": "2026-07-22",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 70,
+      "aperture": 2.8,
+      "exposureTime": 0.0125,
+      "iso": 4000
+    }
+  },
+  {
+    "id": "chicago-theatre-marquee",
+    "file": "chicago-theatre-marquee.jpg",
+    "source": "chicago theater.jpg",
+    "sourceHash": "47f3572176fea1450cdb3a714fd379614959bee023e17dc0650199bbdb07eaa0",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoMABAAAUAmJZQC7AEPAh+Pg63qgAD+/yrsK8IXvsrTUI0+I4hme5RNo6ETJMG4cN/yoLPfF/h+kBcXLy+gd4Nf1ErcTLsHFAA=",
+    "alt": {
+      "fr": "L’enseigne verticale lumineuse « CHICAGO » et la marquise du théâtre brillent dans une rue déserte, la nuit.",
+      "en": "The lit vertical “CHICAGO” sign and the theater marquee glow on an empty street at night."
+    },
+    "caption": { "fr": "La marquise", "en": "The marquee" },
+    "place": { "fr": "Chicago, États-Unis", "en": "Chicago, USA" },
+    "takenAt": "2022-04-17",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 12,
+      "aperture": 3.5,
+      "exposureTime": 0.00625,
+      "iso": 200
+    }
+  },
+  {
+    "id": "market-food-counter",
+    "file": "market-food-counter.jpg",
+    "source": "A7402376.jpg",
+    "sourceHash": "7a3aca2cdd0388f118d2635a8fa3a73a9292813fd340632d4bb0bc64ceafe399",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACwAgCdASoLABAAAUAmJZwCdH8D2UAZCcWO3z8irKAA/vxYvU4EH2ewem2fe3ph0Ax9jw89/VC+Uu87lfOcXqG/DFPdzFU9j9vJfacbvu5qVebET0hFl0fuXgelArJsZo0dbt4CohXftMvywWoJBJ84Exlv0UfXEEH9R3hJ8/wzMLMRly/Lx3AK4sAAAA==",
+    "alt": {
+      "fr": "Des cuisinières en tablier préparent des plats derrière un long comptoir bondé, éclairé par des lampes suspendues.",
+      "en": "Cooks in aprons prepare food behind a long, crowded counter lit by hanging lamps."
+    },
+    "caption": { "fr": "Le comptoir", "en": "At the counter" },
+    "place": { "fr": "Corée du Sud", "en": "South Korea" },
+    "takenAt": "2026-07-20",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 70,
+      "aperture": 2.8,
+      "exposureTime": 0.005,
+      "iso": 100
+    }
+  },
+  {
+    "id": "yasaka-pagoda-lane",
+    "file": "yasaka-pagoda-lane.jpg",
+    "source": "A7403255.jpg",
+    "sourceHash": "ae073fe5ef4ac1af64e9713e8eadbc2a7170086b94a07c3f02cf82be929569a9",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABwAgCdASoQAAsAAUAmJQBOgMVF8zGMYGDaSNskAP7iiNt2KEczf9Qfb/Fjjasg/EEMEmlXf/BHm8zY9R22b8izud9AD/8VyXnvfuPWdeYl82KiGcO40SR5cN8f9LZ8c6Pxvu112UMI4fs3fN8sH12Bd0P+C9VAkikXlELA87geY+YhL9WINBiEI38YD+aCRCKCh7UwAAA=",
+    "alt": {
+      "fr": "Une ruelle presque vide, bordée de maisons traditionnelles en bois, file vers la pagode de Yasaka.",
+      "en": "A nearly empty lane lined with traditional wooden houses runs toward the Yasaka pagoda."
+    },
+    "caption": { "fr": "Ruelle de bois", "en": "Wooden lane" },
+    "place": { "fr": "Kyoto, Japon", "en": "Kyoto, Japan" },
+    "takenAt": "2026-07-26",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 24,
+      "aperture": 5.6,
+      "exposureTime": 0.00625,
+      "iso": 100
+    }
+  },
+  {
+    "id": "spirit-island",
+    "file": "spirit-island.jpg",
+    "source": "easy and simple.jpg",
+    "sourceHash": "1cb260143948851ce1013d38b6b05d88ab099bf03a8cda760c120d189458b651",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAwAgCdASoQAAwAAUAmJQBOgMWlytjF94iGAAD+4pJWjCEiDcFGQD8e4CdofXX2B4dDyWmWBwPf5wx6RU1j3n2bMzwXxV/zo9tm6jOtTU/rKnYJBugjqxmLxogj6rOfnXr1VpQUrvWR0dFV49GhGzH+8TYw03Mq6TKqtG6ndJ0AAA==",
+    "alt": {
+      "fr": "Un îlot planté de sapins se reflète dans un lac turquoise entouré de montagnes.",
+      "en": "A small island of fir trees reflects in a turquoise lake ringed by mountains."
+    },
+    "caption": { "fr": "Simple et calme", "en": "Easy and simple" },
+    "place": { "fr": "Lac Maligne, Canada", "en": "Maligne Lake, Canada" },
+    "takenAt": "2021-07-26",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 12,
+      "aperture": 3.5,
+      "exposureTime": 0.00025,
+      "iso": 200
+    }
+  },
+  {
+    "id": "tokyo-taxi-neon",
+    "file": "tokyo-taxi-neon.jpg",
+    "source": "A7402757.jpg",
+    "sourceHash": "d079db77d61c7995fe860af0f2cd79d45c66820418919345a671b84eb4b5de49",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAACQAgCdASoLABAAAUAmJZACdEf/tsAbGZrMZ5ZFAAD+76n1bK//Y9t4GRstd/3/+RBdr0LeOa7yogerWJD+aof/BKOi8nm0kRMjmkFMOM/KaeAZJfuGvpdDsm/P9Qc4Jo7P6SaROWSuI5mJZkjTY17djJXWC97eZ0XM4IulgG9D4Pjn/+OhyXz4zCEX5AIv7HTEe+cqXaFBYS+Lst9TbkI7RZZt0dhXwTh707slcAA=",
+    "alt": {
+      "fr": "Un taxi noir passe, flou de vitesse, devant des façades aux néons bleus et rouges.",
+      "en": "A black taxi blurs past facades lit with blue and red neon."
+    },
+    "caption": { "fr": "Néons en fuite", "en": "Neon rush" },
+    "place": { "fr": "Tokyo, Japon", "en": "Tokyo, Japan" },
+    "takenAt": "2026-07-22",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 24,
+      "aperture": 2.8,
+      "exposureTime": 0.03333333333333333,
+      "iso": 250
+    }
+  },
+  {
+    "id": "tree-ferns-golden-sky",
+    "file": "tree-ferns-golden-sky.jpg",
+    "source": "P1052261-Enhanced-NR.jpg",
+    "sourceHash": "b9ae98cc6eeec9da97cd2e72b5e8022e6dd02966397606ed60485abeee27e701",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwAgCdASoMABAAAUAmJbACdAEDez95rYI0AAD++QVlH8yPBz4HBKYm6vziv/8Ga6dQM4nwYuihSQlg/soEqs6O/UZPuwPTM1iSK0W74LT0qzp7/8wtOVN/00bxk7qBPhb9yaRyn/cG0cleR1oAAA==",
+    "alt": {
+      "fr": "Une forêt de fougères arborescentes sous un ciel orangé et brumeux.",
+      "en": "A forest of tree ferns under a hazy orange sky."
+    },
+    "caption": { "fr": "Forêt dorée", "en": "Golden forest" },
+    "takenAt": "2025-09-15",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 32,
+      "aperture": 8,
+      "exposureTime": 0.0015625,
+      "iso": 200
+    }
+  },
+  {
+    "id": "vancouver-couple-dusk",
+    "file": "vancouver-couple-dusk.jpg",
+    "source": "vancouv sunset-1.jpg",
+    "sourceHash": "6015509c11ba3722382c4c09a6880b82126495fbdaa777994038ca8e98e87470",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQAgCdASoQAAwAAUAmJYwCdGuAAoo0WaVeFBgA/onYC1/WsvbAcaxCc+Cd+x6Y4qi/jew+9Re1P383UnzZEZtjbP3tTm0s8Jg8aiYW0QWIsNhEaJ/2PqNt/so66m4xs0SADGwwEoAAAA==",
+    "alt": {
+      "fr": "Un couple enlacé, de dos, regarde les tours de Vancouver au bord de l’eau à la tombée du jour.",
+      "en": "A couple embracing, seen from behind, looks at Vancouver’s waterfront towers at nightfall."
+    },
+    "caption": { "fr": "À deux", "en": "Together" },
+    "place": { "fr": "Vancouver, Canada", "en": "Vancouver, Canada" },
+    "takenAt": "2021-07-30",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 1.8,
+      "exposureTime": 0.00625,
+      "iso": 400
+    }
+  },
+  {
+    "id": "kirkjufell-falls",
+    "file": "kirkjufell-falls.jpg",
+    "source": "kirkjufell-3.jpg",
+    "sourceHash": "c9933ea383ae1a37e188c52f2562a813a24bb7a241929257207680ae7559f0b4",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABQAgCdASoQAAwAAUAmJaACdAYtzx+jwbpqRQAA/vzlvqMPQ8jlXfxmO4RbCio2/x9wMpAy//CV/1z/E5zZZbhZ1qijZ02Exx1jQkGVnBkOEjez7+Ju19lyyS5VWF95tzuHZvNGHwYqSmq0FvsMcyRkiPqdCTbz2G27cVvfrlyDsbOQ4EAROl2L/7iUOtXna5YPJAAA",
+    "alt": {
+      "fr": "Une cascade à deux chutes au premier plan, et derrière elle une montagne conique sous un ciel bleu.",
+      "en": "A two-tiered waterfall in the foreground, with a cone-shaped mountain behind it under a blue sky."
+    },
+    "caption": {
+      "fr": "La cascade et la montagne",
+      "en": "Falls and mountain"
+    },
+    "place": { "fr": "Kirkjufell, Islande", "en": "Kirkjufell, Iceland" },
+    "takenAt": "2023-07-31",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 12,
+      "aperture": 4.5,
+      "exposureTime": 0.001,
+      "iso": 200
+    }
+  },
+  {
+    "id": "brooklyn-bridge-portrait",
+    "file": "brooklyn-bridge-portrait.jpg",
+    "source": "belle chachou ny.jpg",
+    "sourceHash": "9a326b99291d784730c626a65351191e7bf44e9eb7ee04e0e754520d4ce07341",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABQAgCdASoQAAwAAUAmJQBOgMXD5P5qbJEnPoAA/vC1PP77zkevQ3Zx7+3/MMp+wueyTyK//PgVRwH/srTbbGltzf5A/zcv9Zsw2w76blo8l8v/C3h3n2UyoyvSdoCS+vaAJoBU83tuXsXpdbKVYJDMph2M4itOqY5Jo28d1AQNwdh8WqNPYzwBHRwI6AAA",
+    "alt": {
+      "fr": "Une jeune femme en casquette sourit sur le pont de Brooklyn, devant les gratte-ciel de Manhattan au crépuscule.",
+      "en": "A young woman in a cap smiles on the Brooklyn Bridge in front of Manhattan’s skyscrapers at dusk."
+    },
+    "caption": { "fr": "Sur le pont", "en": "On the bridge" },
+    "place": { "fr": "New York, États-Unis", "en": "New York, USA" },
+    "takenAt": "2019-12-23",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 1.7,
+      "exposureTime": 0.016666666666666666,
+      "iso": 1000
+    }
+  },
+  {
+    "id": "imperial-palace-moat",
+    "file": "imperial-palace-moat.jpg",
+    "source": "A7402858.jpg",
+    "sourceHash": "c66ec66d65127c585fd0c2e3c294f6d247082ecaa2b6d579d67e6dab6c4200b5",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoQAAsAAUAmJZQCdH8AF9HYuGDSfAD++1dQQuTIS62Ifo2YzDPPB8RuTm3b0nHRgk/vs3/OvgUgAbXl29m7e/9Bj/IMDdjqrae/msmMFeLfxUKLUoZ0Wfwg4l/VE0AA",
+    "alt": {
+      "fr": "Une tourelle blanche de l’ancien château d’Edo se reflète dans les douves, face aux tours du centre de Tokyo dans une lumière rose.",
+      "en": "A white turret of the old Edo castle reflects in the moat, facing the towers of central Tokyo in pink light."
+    },
+    "caption": { "fr": "Les douves", "en": "The moat" },
+    "place": { "fr": "Tokyo, Japon", "en": "Tokyo, Japan" },
+    "takenAt": "2026-07-23",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 34.3,
+      "aperture": 5,
+      "exposureTime": 0.004,
+      "iso": 100
+    }
+  },
+  {
+    "id": "emerald-lake-raincoat",
+    "file": "emerald-lake-raincoat.jpg",
+    "source": "juju reflections.jpg",
+    "sourceHash": "facccb72716116c38795a1d4de393f765d9d721a41f417cf6205a974735781bd",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAACwAgCdASoQAAwAAUAmJZQCdAYrx2w8v8x8lyJrxAAA4mjoyZ3dppwaq0vkrJ8X0rb9/AeiM9Sd8vDEXYNGtv8sZW2bHGSBt/xAj9Kd9YQ+JS2ELKqjznpyGs68NaYGgV+TycqEQ4Z7OD3G6KtLNEFwq+BmLw1XhXtHq+AGQHaDJFrJAAA=",
+    "alt": {
+      "fr": "De dos, une personne en imperméable regarde un lac vert où se reflètent des sapins et un chalet.",
+      "en": "Seen from behind, a person in a raincoat looks at a green lake reflecting fir trees and a lodge."
+    },
+    "caption": { "fr": "Reflets", "en": "Reflections" },
+    "place": { "fr": "Lac Émeraude, Canada", "en": "Emerald Lake, Canada" },
+    "takenAt": "2021-07-22",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 1.7,
+      "exposureTime": 0.002,
+      "iso": 200
+    }
+  },
+  {
+    "id": "taxi-driver-matsuya",
+    "file": "taxi-driver-matsuya.jpg",
+    "source": "A7403697.jpg",
+    "sourceHash": "9a402ebf3e2e536846b86b85dc8a5a2678809dfc1d0bc74e4c12364774359111",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAACwAgCdASoLABAAAUAmJYgCdDBRyIkL1AqkO4rv7UAA/k/v/++P/xLfCJq1NfuM3ZFLp/b3Glhxz/2N2EgKxlBsXW/PqlA2uWRgd+STn1yy9SksSsgWV8hetEX5juWMWRcD8rnNPgf7s8uPzUwWoi8pEja/57tr5EyUdStYW4sJkGm4DBzaCfR+PrMFC16e+tYbtG4JFgHEAAAA",
+    "alt": {
+      "fr": "La nuit, un chauffeur de taxi âgé attend sous l’enseigne lumineuse d’un restaurant Matsuya.",
+      "en": "At night, an elderly taxi driver waits under the lit sign of a Matsuya restaurant."
+    },
+    "caption": { "fr": "Le chauffeur", "en": "The driver" },
+    "place": { "fr": "Japon", "en": "Japan" },
+    "takenAt": "2026-07-29",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 70,
+      "aperture": 2.8,
+      "exposureTime": 0.008,
+      "iso": 500
+    }
+  },
+  {
+    "id": "skogafoss-wall-of-water",
+    "file": "skogafoss-wall-of-water.jpg",
+    "source": "wall of water-1.jpg",
+    "sourceHash": "62d2a1d507177e6d429e59d37df95523d6d6624fb67acf5956398d41c0ea1853",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAwAAUAmJaQC7AEDfZ6dnPmAAP79KWrxjQuD94eBLxvp8mX1TjlvCw0ucRAnUqRBtJ+sOJcB7VyF+XpeVf0AJaAAAA==",
+    "alt": {
+      "fr": "Une silhouette se tient sur des galets au pied d’un immense rideau d’eau, dans la brume.",
+      "en": "A figure stands on pebbles at the foot of a huge curtain of water, in the mist."
+    },
+    "caption": { "fr": "Mur d’eau", "en": "Wall of water" },
+    "place": { "fr": "Skógafoss, Islande", "en": "Skógafoss, Iceland" },
+    "takenAt": "2023-07-26",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 2,
+      "exposureTime": 0.0015625,
+      "iso": 200
+    }
+  },
+  {
+    "id": "midtown-skyline",
+    "file": "midtown-skyline.jpg",
+    "source": "midtown-1.jpg",
+    "sourceHash": "4ccd21bc2d51519ca8ea8213ea56fa308ce2c8cece6fe516b8f568bf551e28c3",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQAgCdASoQAAwAAUAmJZwCdAEVwf2OEzVAAP73bbjnGbHUQoTcKTVZ59Gj6n40Lv/IW2Eiq2Pz59UGvbqnJv2ZGW50KvrJ9oxkyjrfITppT/oERxmf9aunx7owo2RSTeE3471Za7G9lxj5o6HKOHAscOYAAA==",
+    "alt": {
+      "fr": "Les gratte-ciel de Midtown, dont l’Empire State Building, s’élèvent au-dessus d’immeubles de briques.",
+      "en": "Midtown’s skyscrapers, including the Empire State Building, rise above brick buildings."
+    },
+    "caption": { "fr": "Midtown", "en": "Midtown" },
+    "place": { "fr": "New York, États-Unis", "en": "New York, USA" },
+    "takenAt": "2022-09-12",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 35-100/F4.0-5.6",
+      "focalLength": 100,
+      "aperture": 6.3,
+      "exposureTime": 0.0025,
+      "iso": 200
+    }
+  },
+  {
+    "id": "palms-by-the-ocean",
+    "file": "palms-by-the-ocean.jpg",
+    "source": "P1052175.jpg",
+    "sourceHash": "8a9eea0af86ec42f39ad611e11d571a4ff42b893156d8d35d8ee0caba1268158",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAACwAgCdASoMABAAAUAmJagCdGuADzv/OZcB3Y2SfnAA/sq94snk8FOy0/b6ggNzwTIT38kRi9ogPy+TunvBbW81wbmSLK4XNU94MnY5txBW42V0B1fayucg/PDgY/rZdr3+yw4ldv2c+3UJkgVtcenPKQIly9UQn0z+JbpD5T7RwlO99p2L3gBsGWIivG934A1KIOjZ9G2JeUeQ5T81CGgA",
+    "alt": {
+      "fr": "Des cocotiers se penchent sur une pelouse sèche face à l’océan ; une personne est allongée à leur pied.",
+      "en": "Coconut palms lean over dry grass facing the ocean; a person lies at their feet."
+    },
+    "caption": { "fr": "Sieste face à l’océan", "en": "Nap by the ocean" },
+    "takenAt": "2025-09-15",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 9,
+      "exposureTime": 0.002,
+      "iso": 200
+    }
+  },
+  {
+    "id": "osaka-castle-garden",
+    "file": "osaka-castle-garden.jpg",
+    "source": "A7403746.jpg",
+    "sourceHash": "18c1fde8e42e7a0803d35303f057ec4507a4aa5b784e8e05534a1f1b9a45f6cd",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADQAgCdASoQAAsAAUAmJaACdH8D2SyIcMA3pjHlpL/QAP73bGA4cSrZTo5zqAIvvu/F1A45ekD17mzW+IdCRM0rT5Ro84U4TUUdt5IFGdpzYhPxMp9tyF++E97zPLt19MuzyLDGlEA2nVYMz4QfUXNAy4WNC6/iy4Uh9B8Zuvw6uQlgmYA9p1YRtw+JZcpcR/4WC1XB4J8NwtpLWjCAAA==",
+    "alt": {
+      "fr": "Le château d’Osaka domine un jardin et un étang ; une ombrelle brune occupe le coin de l’image.",
+      "en": "Osaka Castle rises above a garden and pond; a brown parasol fills the corner of the frame."
+    },
+    "caption": { "fr": "Château et ombrelle", "en": "Castle and parasol" },
+    "place": { "fr": "Osaka, Japon", "en": "Osaka, Japan" },
+    "takenAt": "2026-07-30",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 35.3,
+      "aperture": 3.5,
+      "exposureTime": 0.0008,
+      "iso": 100
+    }
+  },
+  {
+    "id": "emerald-lake-dusk",
+    "file": "emerald-lake-dusk.jpg",
+    "source": "reflections lake.jpg",
+    "sourceHash": "537f301f1a1fd9f4a1e221eb7e28178411bc67bae20f264b7d2bfbc720bac174",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwAgCdASoQAAwAAUAmJQBOj+B7LQIvOnfXj3gAAPlfK1j38rZgprDcWL2WBwzpF6Zd6Cu+L21aK5mEjnVjnLfngl6nsfb7KHrhd/h8RkUtSAwQPQVI4fjtS+GfN/2h2jmJ4BSsvTOjLpryaM2B3XthfcEzhNSyCG6B3M4XAAA=",
+    "alt": {
+      "fr": "Un chalet et des sapins se reflètent dans un lac immobile, sous un ciel orangé et voilé.",
+      "en": "A lodge and fir trees reflect in a still lake under a hazy orange sky."
+    },
+    "caption": { "fr": "Lac miroir", "en": "Mirror lake" },
+    "place": { "fr": "Lac Émeraude, Canada", "en": "Emerald Lake, Canada" },
+    "takenAt": "2021-07-22",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 12,
+      "aperture": 3.5,
+      "exposureTime": 0.0015625,
+      "iso": 200
+    }
+  },
+  {
+    "id": "tokyo-expressways",
+    "file": "tokyo-expressways.jpg",
+    "source": "A7402879.jpg",
+    "sourceHash": "702661fa2e0f31cbc129af48731e5efe402a15a7f34d2709cb607b1816fc8205",
+    "width": 2560,
+    "height": 1706,
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQAgCdASoQAAsAAUAmJZQCdAYtBkuhVh41ZQAA/vxyKmCPxvGhJupUZAzzw3XJ0RxDdXunJIOEMf3gsvNV9bdttZaVC/kfQlD4uinwpeCaJpgiOZjmlue9BwAYa+ACH+YM8AAA",
+    "alt": {
+      "fr": "Des autoroutes surélevées éclairées en orange serpentent entre les tours d’une ville la nuit.",
+      "en": "Elevated expressways lit in orange wind between the towers of a city at night."
+    },
+    "caption": { "fr": "Rubans orange", "en": "Orange ribbons" },
+    "place": { "fr": "Tokyo, Japon", "en": "Tokyo, Japan" },
+    "takenAt": "2026-07-23",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 46.9,
+      "aperture": 2.8,
+      "exposureTime": 0.0125,
+      "iso": 4000
+    }
+  },
+  {
+    "id": "one-world-trade-center-bw",
+    "file": "one-world-trade-center-bw.jpg",
+    "source": "Black and white manhattan.jpg",
+    "sourceHash": "799167d585324c18cde547026e192f7231ed01d9198db2e3ba1c1e5dd7a78ed0",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAwAgCdASoQAAwAAUAmJaQAD4cweFP+jMjuQADOPyi8JGT6YZeF1p/F+Q8Z6JCX0/uVO3RSNy96J461+LOuSFdvud/DK9L500Dp3F+EaqAZ/hNRYec3eXY0w/Z+/BfZLzypeFtCvLE4DAAA",
+    "alt": {
+      "fr": "En noir et blanc, le One World Trade Center domine la pointe de Manhattan sous des nuages percés de rayons.",
+      "en": "In black and white, One World Trade Center towers over Lower Manhattan beneath clouds pierced by rays of light."
+    },
+    "caption": { "fr": "Rayons sur Manhattan", "en": "Rays over Manhattan" },
+    "place": { "fr": "New York, États-Unis", "en": "New York, USA" },
+    "takenAt": "2022-09-13",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 35-100/F4.0-5.6",
+      "focalLength": 75,
+      "aperture": 20,
+      "exposureTime": 0.005,
+      "iso": 200
+    }
+  },
+  {
+    "id": "landmannalaugar-lava-field",
+    "file": "landmannalaugar-lava-field.jpg",
+    "source": "mountain of the gods.jpg",
+    "sourceHash": "dab31d63f1e10d6b2b881b809d20505c564db2b8604f7eddf5e30cb83394f6f2",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAAwAAUAmJZwCdAD0OeReRYAA/rVdF05qnHUn4ctBFrrAJO0X+RWAqaeY3738q0JdYD6CGu6c+9cF9BmHjaRRLWcX7rdDNz/UnceKyhohiQabqzxiwA18AAA=",
+    "alt": {
+      "fr": "Un champ de lave moussu au premier plan, et des montagnes de rhyolite ocre et vertes sous les nuages.",
+      "en": "A mossy lava field in the foreground, with ochre and green rhyolite mountains under the clouds."
+    },
+    "caption": { "fr": "La montagne des dieux", "en": "Mountain of the gods" },
+    "place": {
+      "fr": "Landmannalaugar, Islande",
+      "en": "Landmannalaugar, Iceland"
+    },
+    "takenAt": "2023-07-25",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 32,
+      "aperture": 11,
+      "exposureTime": 0.00125,
+      "iso": 200
+    }
+  },
+  {
+    "id": "calgary-central-library",
+    "file": "calgary-central-library.jpg",
+    "source": "calgary librayr.jpg",
+    "sourceHash": "98df341e956944522cb89dd9dcfc4849bd7e523e4d07671c722bea43dfdf60dc",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAwAgCdASoMABAAAUAmJZgCdADdJAYLQqOjmAD++gxy1zr/eGelkB2ujvW7X1rBk7fxkcE9e3OLwX9XVYxE6HeQH1W8nRvyTR4mxF8hpm9pzKhwyQGWaTHSZOJiguIm/WG6a2TvNzxBfxjdEFWKic6ncMpy/gzn91ML0EfzWPq9uBdaPYAAAA==",
+    "alt": {
+      "fr": "Vu d’en bas, l’atrium en bois courbe d’une bibliothèque s’ouvre sur une verrière ovale.",
+      "en": "Seen from below, a library’s curved wooden atrium opens onto an oval skylight."
+    },
+    "caption": { "fr": "Ellipse de bois", "en": "Wooden ellipse" },
+    "place": { "fr": "Calgary, Canada", "en": "Calgary, Canada" },
+    "takenAt": "2021-07-17",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 12,
+      "aperture": 4.5,
+      "exposureTime": 0.00125,
+      "iso": 200
+    }
+  },
+  {
+    "id": "market-vendor-bulbs",
+    "file": "market-vendor-bulbs.jpg",
+    "source": "A7402359.jpg",
+    "sourceHash": "3a042403087076fe7d1d111fa25c07df27db1bf80c59b011c26b8bca2918ef63",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABQAgCdASoLABAAAUAmJbACdH8Agkys+0eUAAAA/vG/f9vsQlskAt0/s08WtrvpLX1VSrrzXKEV8XY2LGkZVXnO91EcRnklSI6WUauOGSHcHU/pXYICCcTr4jQEWgeNYpYCZD75cZzhgb3RHE1V/TD38+I2CL3/iXhj74yZSWgpixQA",
+    "alt": {
+      "fr": "Sous une rangée d’ampoules, une vendeuse se penche au-dessus d’étals de fruits de mer séchés et marinés dans un marché couvert.",
+      "en": "Under a row of bulbs, a vendor leans over stalls of dried and marinated seafood in a covered market."
+    },
+    "caption": { "fr": "Sous les ampoules", "en": "Under the bulbs" },
+    "place": { "fr": "Corée du Sud", "en": "South Korea" },
+    "takenAt": "2026-07-20",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 70,
+      "aperture": 2.8,
+      "exposureTime": 0.01,
+      "iso": 100
+    }
+  },
+  {
+    "id": "lake-ashi-torii",
+    "file": "lake-ashi-torii.jpg",
+    "source": "A7404337.jpg",
+    "sourceHash": "a277bd648257a8888c88dbb29b2dccdf55bd9b17c89da74d6309f0c00994f065",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAABwAgCdASoLABAAAUAmJZgCdB2gAoBrx1LNUmUwAP64TTenym0j8/CTN91Drc2LHZiagz5rFky/lcvlcYhW4jqXjticDX4wScdyq/748PwRtsZQ69zvo/zCBnAHhxGmbCuJLASPpQAc/AUm7PBE6ZLHb9tdO0b75/4v/W5b0lYq/m+b4IAAAA==",
+    "alt": {
+      "fr": "Entre des branches, des barques flottent sur un lac bleu face à un torii rouge au pied d’une montagne boisée.",
+      "en": "Between branches, small boats float on a blue lake facing a red torii at the foot of a wooded mountain."
+    },
+    "caption": { "fr": "Le torii du lac", "en": "Lake torii" },
+    "place": { "fr": "Hakone, Japon", "en": "Hakone, Japan" },
+    "takenAt": "2026-08-04",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 70,
+      "aperture": 6.3,
+      "exposureTime": 0.003125,
+      "iso": 100
+    }
+  },
+  {
+    "id": "toronto-burning-sky",
+    "file": "toronto-burning-sky.jpg",
+    "source": "burning sky.jpg",
+    "sourceHash": "3bd4af5d97398190be2b75b401d9e336c9acf3a18d7e87583eea9186ebdf3eee",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAABwAgCdASoQAAwAAUAmJbACdDBNyIZLeS1BMxgAAP66X+9vMHBfN0zqk4v8EOp05HEiFQ5EJ25VXzPCgPIOr4pTjbyLm+o29YAm8V/6RAF1tVydU3T5XVx5NTXTWCiqEZnfa1Kh7sXQA7pu4PiEbmK3yr9eP8Vbz9rqPG9z0z4S7Ll06wAAAA==",
+    "alt": {
+      "fr": "Des gratte-ciel se découpent sur un ciel de coucher de soleil rouge et rose.",
+      "en": "Skyscrapers stand out against a red and pink sunset sky."
+    },
+    "caption": { "fr": "Ciel en feu", "en": "Burning sky" },
+    "place": { "fr": "Toronto, Canada", "en": "Toronto, Canada" },
+    "takenAt": "2020-06-27",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 29,
+      "aperture": 5.5,
+      "exposureTime": 0.1,
+      "iso": 800
+    }
+  },
+  {
+    "id": "ine-boathouses",
+    "file": "ine-boathouses.jpg",
+    "source": "A7403980.jpg",
+    "sourceHash": "7c1d5b822b2ec50991a4b3b5c51ffafe82273505f21b92beb33765fa97711b6b",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACQAgCdASoQAAsAAUAmJagCdAdwLfrzYOPOWzChgAD+/SSHQ04bfACQ6hdA+P+qXsFqZTKepGyhc+b6i1XYcP4mtQNoOZqolDlwzsyOTFmtU5Tyd1wg72ZyaygxB/kL9RonLECXQa3siNg5jdPjGo/THDVFHIN3+8d+pgAA",
+    "alt": {
+      "fr": "Des maisons-hangars à bateaux en bois sombre bordent une eau turquoise au pied d’une colline boisée.",
+      "en": "Dark wooden boathouses line turquoise water at the foot of a wooded hill."
+    },
+    "caption": { "fr": "Maisons sur l’eau", "en": "Houses on the water" },
+    "place": { "fr": "Ine, Japon", "en": "Ine, Japan" },
+    "takenAt": "2026-07-31",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 70,
+      "aperture": 5.6,
+      "exposureTime": 0.005,
+      "iso": 100
+    }
+  },
+  {
+    "id": "grand-canyon-overlook",
+    "file": "grand-canyon-overlook.jpg",
+    "source": "gc beaut.jpg",
+    "sourceHash": "9d292c1554e08a1b0b24a7aab8908a9efa074dd8402054a96d81ebc9715bfdc8",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAABwAgCdASoQAAwAAUAmJYgCdAYu5wLTOdzro1WAAP64TTAP8ymzAa+WOPThaYyE85oOoe18kcuzinCQyo0s3gMBpeIP3M3BfowW4Merhk86qP8x2qTv7Vn8Hd8IxcFGsN9ocLE0a3K65Q3iHv/Xzbgx7GUvYVAAAAA=",
+    "alt": {
+      "fr": "Deux personnes se tiennent au bord d’un promontoire rocheux face aux strates rouges du Grand Canyon, sous un ciel d’orage.",
+      "en": "Two people stand on the edge of a rocky outcrop facing the red layers of the Grand Canyon, under a stormy sky."
+    },
+    "caption": { "fr": "Au bord du vide", "en": "On the edge" },
+    "place": { "fr": "Grand Canyon, États-Unis", "en": "Grand Canyon, USA" },
+    "takenAt": "2022-07-19",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 20,
+      "exposureTime": 0.02,
+      "iso": 200
+    }
+  },
+  {
+    "id": "price-building",
+    "file": "price-building.jpg",
+    "source": "quebec.jpg",
+    "sourceHash": "2949968719ef476d54273c0ffd6ade600f7cd6ff6d3cc5bdd4a46da0142ad79f",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQAgCdASoQAAwAAUAmJQBOgCFsR8QXAOwAAP74z0IE2mPIhuzGwCXxat13/G//oW8/x6Xg8dZon8PpbhijbYkTY10i7T/9L3N+4+s+JrfgivinbVNLiVSJNtitsWfJjTOnsFTo1EpyuB94e+Vw2tKaaBRCAA==",
+    "alt": {
+      "fr": "Une tour Art déco au toit de cuivre, surmontée du drapeau du Québec, s’élève derrière des toits de tôle.",
+      "en": "An Art Deco tower with a copper roof, topped by the Quebec flag, rises behind tin roofs."
+    },
+    "caption": { "fr": "Au-dessus des toits", "en": "Above the rooftops" },
+    "place": { "fr": "Québec, Canada", "en": "Quebec City, Canada" },
+    "takenAt": "2019-09-21",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 35-100/F4.0-5.6",
+      "focalLength": 60,
+      "aperture": 8,
+      "exposureTime": 0.002,
+      "iso": 200
+    }
+  },
+  {
+    "id": "waterfall-between-slopes",
+    "file": "waterfall-between-slopes.jpg",
+    "source": "P1052772-Enhanced-NR.jpg",
+    "sourceHash": "cb229e3ee379b971ebdabd3c69fa477727793e7ebde8eb0aca1805953b6aee76",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwAgCdASoMABAAAUAmJQBOgNFALdNXtGSPvzwAAP7eBX/B5/Zo3Y91cHTwY//bpq0qzGsH/WuefdEHbkpny/AvSEGlBGA9+VQYvVv9aZ+AsIQGS9yWvIm2Y0Nj6kI64v4/TfHG6yyER1APDsMkBdMbPAEAAA==",
+    "alt": {
+      "fr": "Une cascade s’écoule en plusieurs chutes dans une entaille entre deux pentes verdoyantes.",
+      "en": "A waterfall drops in several tiers through a cleft between two lush green slopes."
+    },
+    "caption": { "fr": "Entre deux pentes", "en": "Between two slopes" },
+    "takenAt": "2025-09-26",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 35-100/F4.0-5.6",
+      "focalLength": 35,
+      "aperture": 11,
+      "exposureTime": 0.01,
+      "iso": 200
+    }
+  },
+  {
+    "id": "tokyo-rooftops-night",
+    "file": "tokyo-rooftops-night.jpg",
+    "source": "A7402877.jpg",
+    "sourceHash": "1c3302455af41d9ec2dc4f85af39533be0d6701429e34225258b4bbca8b5a79d",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwAgCdASoLABAAAUAmJZwCsAELz+WB4Q3KQAD+/VidHF1MxWH34SrUR1Pg8tKcPOn07lmZymqsjh2rNOG7G8wW81jVP/j3II7qk8qce/hB9npMdKdu3HdlcoKrmpEQac3AMF8k3NjQX8ZwBJ/bjgAA",
+    "alt": {
+      "fr": "Vue plongeante sur des immeubles, des panneaux lumineux et une avenue éclairée la nuit.",
+      "en": "A view down onto buildings, lit billboards and a bright avenue at night."
+    },
+    "caption": { "fr": "Plongée nocturne", "en": "Night from above" },
+    "place": { "fr": "Tokyo, Japon", "en": "Tokyo, Japan" },
+    "takenAt": "2026-07-23",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 70,
+      "aperture": 2.8,
+      "exposureTime": 0.008,
+      "iso": 1000
+    }
+  },
+  {
+    "id": "fjadrargljufur-canyon",
+    "file": "fjadrargljufur-canyon.jpg",
+    "source": "avatar-5.jpg",
+    "sourceHash": "06dd53f50df4e7c423be094c276d33e577ade2f136e3d2eb80443c6a78d8cf3a",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADQAQCdASoQAAwAAUAmJZQCdAEPgCpeAAD+ypVB+Kwh046E41vL8cw02QRcVTAMqIUFxj9pn1pZ1aGqVvLFNx6XBvJPa8IhRoj37vM/cqXdAOrefqAqULhDSTIKKl6zb3ztClpxCNFAAA==",
+    "alt": {
+      "fr": "Un canyon aux parois de roche sombre couvertes de mousse, traversé par une rivière, sous un ciel gris.",
+      "en": "A canyon with dark, moss-covered rock walls and a river running through it, under a gray sky."
+    },
+    "caption": { "fr": "Le canyon", "en": "The canyon" },
+    "place": {
+      "fr": "Fjaðrárgljúfur, Islande",
+      "en": "Fjaðrárgljúfur, Iceland"
+    },
+    "takenAt": "2023-07-27",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 12,
+      "aperture": 5.1,
+      "exposureTime": 0.003125,
+      "iso": 200
+    }
+  },
+  {
+    "id": "kiyomizu-dera-pagoda",
+    "file": "kiyomizu-dera-pagoda.jpg",
+    "source": "A7403276.jpg",
+    "sourceHash": "fa05efe57fea86569a2f20643823320e9a2f135dfa2f42c44d4a4b93303abb41",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAwAgCdASoLABAAAUAmJYwCdAYr7ySi6V+NCAD++ZnNn9I1qBSj1r9s4/Zdjm9hz7KlvRKTQv6Rt7/n4v8LvUad3uqxsqfGzAP7rTBYePfm7OzObUdf9X4IbS7hqcMKjjZtK9yW8KuhunrbQZL+/jmT8NgH+0hHGcnnUMTSugg/NTOya4+kBjVp74FVaE+Q7UoT6WFb36QAAA==",
+    "alt": {
+      "fr": "Une pagode vermillon à trois étages domine les bâtiments du temple ; deux enfants marchent devant.",
+      "en": "A vermilion three-story pagoda towers over the temple buildings; two children walk in front."
+    },
+    "caption": { "fr": "Vermillon", "en": "Vermilion" },
+    "place": { "fr": "Kyoto, Japon", "en": "Kyoto, Japan" },
+    "takenAt": "2026-07-26",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 46.5,
+      "aperture": 5.6,
+      "exposureTime": 0.004,
+      "iso": 100
+    }
+  },
+  {
+    "id": "empire-state-touch-of-gold",
+    "file": "empire-state-touch-of-gold.jpg",
+    "source": "black and white nyc.jpg",
+    "sourceHash": "f54692cd7dcd53dfb683bfaa3ca69d38738e48a1bc747e859d19b485bd0d452c",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABQAgCdASoQAAwAAUAmJaQAD42Ra5wrImsZgAAA/qbPXTjzzX+Xjq0WexsdJIJ3GcPQywPg4xynxrReVneij0o6SuX6Bf30ncpQ4GfkV2ZbV6ZEnHxx34mTa/9rzx8ChqxoO6SK+I4rumUfLbP20F5eAAA=",
+    "alt": {
+      "fr": "Dans une image en noir et blanc, seul l’Empire State Building garde sa couleur dorée, entre des immeubles de Manhattan.",
+      "en": "In a black and white image, only the Empire State Building keeps its golden color, between Manhattan buildings."
+    },
+    "caption": { "fr": "Une touche d’or", "en": "A touch of gold" },
+    "place": { "fr": "New York, États-Unis", "en": "New York, USA" },
+    "takenAt": "2019-12-24",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 1.7,
+      "exposureTime": 0.008,
+      "iso": 200
+    }
+  },
+  {
+    "id": "montreal-blue-hour",
+    "file": "montreal-blue-hour.jpg",
+    "source": "P1051565-Enhanced-NR.jpg",
+    "sourceHash": "324e1c608ee9986ec2c7241c086183b889beee3b425c44741a9e09810fd27fba",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACwAgCdASoMABAAAUAmJaACdEf/i1ucmJJRycIgzwAA/u+rwYDNI1h78Vdq5xpxgUJApkZd5wb5nbscWVJv0ZBCtxP5P5thClNOIIjP6iq4Rq3+3gaAbNmpxAje81bRDY/26237klwhf6ijBGK+7H3c/tXU2kZy+2lgFcOAAAA=",
+    "alt": {
+      "fr": "Les tours du centre-ville s’éclairent à l’heure bleue au-dessus des toits d’un quartier.",
+      "en": "Downtown towers light up at blue hour above the rooftops of a neighborhood."
+    },
+    "caption": { "fr": "L’heure bleue", "en": "Blue hour" },
+    "place": { "fr": "Montréal, Canada", "en": "Montreal, Canada" },
+    "takenAt": "2025-06-04",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 1.7,
+      "exposureTime": 0.008,
+      "iso": 1600
+    }
+  },
+  {
+    "id": "red-pagoda-steps",
+    "file": "red-pagoda-steps.jpg",
+    "source": "A7403780.jpg",
+    "sourceHash": "24e1614fd8d4b2ce03e34ce195e22f7f483e69a456ccdbdc9b8fb3a82ab93013",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQAgCdASoQAAsAAUAmJbACdAEClhW/YydAAP70x+PyVmnJComXxGbT8xyGUSSohg+62M5yMPuYQcH2+F99RgkQMymCWo4gdWv5kOA8ULEhw5WmUfCtiIHzGC+/eav+pgTM/sMIk3uPjU49gEyScoAA",
+    "alt": {
+      "fr": "Un long escalier de pierre bordé d’érables monte vers une petite pagode rouge ; une personne sous un parapluie le gravit.",
+      "en": "A long stone stairway lined with maples climbs toward a small red pagoda; a person with an umbrella walks up."
+    },
+    "caption": { "fr": "L’ascension", "en": "The climb" },
+    "place": { "fr": "Japon", "en": "Japan" },
+    "takenAt": "2026-07-30",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 64.5,
+      "aperture": 4,
+      "exposureTime": 0.0125,
+      "iso": 100
+    }
+  },
+  {
+    "id": "the-cabin",
+    "file": "the-cabin.jpg",
+    "source": "the cabin.jpg",
+    "sourceHash": "03d4df936c6acc1d09eca672669a31c132543ecd90650014e5aaea705ea12d13",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABwAgCdASoQAAwAAUAmJYwCdB2gApcR5/yLwj4AAP7xv+JwdEbXNgtFhlmGbfYcoeCz2wKJwRH7Nv+b2qoT897xjl//kpIXIqo3Jap/9PCIgb7Fx5nsbegvCWK68pItayO8qbhwrzJQqywut5xAS/nGavrv7n9M3IEAAA==",
+    "alt": {
+      "fr": "Un chalet blanc à véranda grillagée apparaît en contre-jour derrière une végétation dense.",
+      "en": "A white cabin with a screened porch appears backlit behind dense foliage."
+    },
+    "caption": { "fr": "Le chalet", "en": "The cabin" },
+    "takenAt": "2020-06-12",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 10,
+      "exposureTime": 0.002,
+      "iso": 400
+    }
+  },
+  {
+    "id": "dettifoss",
+    "file": "dettifoss.jpg",
+    "source": "detifoss.jpg",
+    "sourceHash": "32e9e5dd18ccabc88e4ece6d9b29f5549daaefac120bf4e2271a0bab76a37a45",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAABQAgCdASoQAAwAAUAmJYwCdAf2BkR1QKvnEIAA/vQO21LG3h3K/bM0rch0yfyvz9X8HZ56ycEu2t2HX5eS43v+2mZ7zpd/X5/4n7+ovFIi/PhzCXfZoFyOLCNVku/wf7moLF+UFG9ZemjpTBnGiCbM+6R1igz9OwzOPnY4a4yyKX05LAAAAA==",
+    "alt": {
+      "fr": "Une puissante chute d’eau grise plonge dans un canyon de roche sombre, entre des berges moussues.",
+      "en": "A powerful gray waterfall plunges into a dark rock canyon between mossy banks."
+    },
+    "caption": { "fr": "Pleine puissance", "en": "Full force" },
+    "place": { "fr": "Dettifoss, Islande", "en": "Dettifoss, Iceland" },
+    "takenAt": "2023-07-29",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 12,
+      "aperture": 11,
+      "exposureTime": 0.01,
+      "iso": 200
+    }
+  },
+  {
+    "id": "akihabara-facades",
+    "file": "akihabara-facades.jpg",
+    "source": "A7404211.jpg",
+    "sourceHash": "2f066fd32f7a93d6a1eed78c27ed49bdab63ca6abf562c07995ac61d17e78eaa",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAACQAgCdASoLABAAAUAmJZACdDBSCImJztAYKQV84AD+inGtvjs+X6HtTAizJhUTvInmff2GEGT6I65SKw20KRp6f+vYCrgOVGuDlq/xRHFu5Q5z8eOv4eiJ6ewbeKpPR/vRvpGyhD6L7i/yCI4al42ZH8Pgb3QxO2C6ntndPwahs01k4Ug6adstWW69yn3cg6fEcRjXZ95Mb+2o+mRo7F1dqn8XAAAA",
+    "alt": {
+      "fr": "Des façades couvertes d’enseignes et d’affiches de manga s’illuminent au-dessus d’une avenue au crépuscule.",
+      "en": "Facades covered in signs and manga posters light up above an avenue at dusk."
+    },
+    "caption": { "fr": "Façades d’Akihabara", "en": "Akihabara facades" },
+    "place": { "fr": "Tokyo, Japon", "en": "Tokyo, Japan" },
+    "takenAt": "2026-08-02",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 25,
+      "aperture": 2.8,
+      "exposureTime": 0.03333333333333333,
+      "iso": 160
+    }
+  },
+  {
+    "id": "peak-above-the-clouds",
+    "file": "peak-above-the-clouds.jpg",
+    "source": "P1052397-Enhanced-NR.jpg",
+    "sourceHash": "cebfdbc90e4fb12b881fbd5e717fdf938eab2bd8d716cef213b883a4dc5f805b",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABwAgCdASoMABAAAUAmJQBOj+EYAAt+57JqGzXkAP70ELwIvhEPe8b3jtWyevAB4TVhi9OxHNntKOfG24G49Qcfztn2QdIZhhlmnppmw3Ffk4qp1KKzd/ycA6M5Z5rwuEV/sWUc5AGghCLgAAA=",
+    "alt": {
+      "fr": "Un sommet sombre émerge d’une mer de nuages sous un ciel rose et mauve.",
+      "en": "A dark peak rises from a sea of clouds under a pink and mauve sky."
+    },
+    "caption": { "fr": "Au-dessus des nuages", "en": "Above the clouds" },
+    "takenAt": "2025-09-17",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 35-100/F4.0-5.6",
+      "focalLength": 100,
+      "aperture": 5.6,
+      "exposureTime": 0.0125,
+      "iso": 800
+    }
+  },
+  {
+    "id": "seoul-night-skyline",
+    "file": "seoul-night-skyline.jpg",
+    "source": "A7402250.jpg",
+    "sourceHash": "1270987d008c5acc19ecd1a0346f3702a0d82066cc4605b49a7204fa8d25d128",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAgCdASoQAAsAAUAmJZwCdH8AGBsiXpAAAP7+h2ZHyM/lgqTwaa8yIWqqOQdfZSCioWVpFEwAAA==",
+    "alt": {
+      "fr": "Les tours illuminées du centre de Séoul s’étendent dans la nuit au pied de montagnes sombres.",
+      "en": "The lit towers of central Seoul spread through the night at the foot of dark mountains."
+    },
+    "caption": { "fr": "Séoul s’allume", "en": "Seoul lights up" },
+    "place": { "fr": "Séoul, Corée du Sud", "en": "Seoul, South Korea" },
+    "takenAt": "2026-07-19",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 24,
+      "aperture": 4.5,
+      "exposureTime": 0.025,
+      "iso": 2500
+    }
+  },
+  {
+    "id": "palm-trees-sunset",
+    "file": "palm-trees-sunset.jpg",
+    "source": "californication.jpg",
+    "sourceHash": "1dc097cf7b97c53ab798dcd1218e723eb008e8600e59e7c293223d5dbc20e787",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAABwAgCdASoMABAAAUAmJQBOjXAB5p3Zvp9YWdAAAP78dOWqayEcl3RcQf4ngROuVp0k0xJ1+tD+mS8pEG/749nVCe+w//2+WSY40GPg/ay+mUVfrExojo38WgaPp1lv5i9AUD8x0xjfY5NksUGjTrGfZEic0kk6Fe3tb9ZQtHATHdWu8hDiAAAA",
+    "alt": {
+      "fr": "Des palmiers et un lampadaire se découpent en silhouette sur un coucher de soleil orange et violet.",
+      "en": "Palm trees and a street lamp are silhouetted against an orange and purple sunset."
+    },
+    "caption": { "fr": "Californication", "en": "Californication" },
+    "place": { "fr": "Californie, États-Unis", "en": "California, USA" },
+    "takenAt": "2022-07-31",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 32,
+      "aperture": 5.6,
+      "exposureTime": 0.000625,
+      "iso": 200
+    }
+  },
+  {
+    "id": "reykjanes-lava-flow",
+    "file": "reykjanes-lava-flow.jpg",
+    "source": "the snake-1.jpg",
+    "sourceHash": "04699341fb08b661616b2ab510a939223f897493ad05a6973c35565d63a640c2",
+    "width": 2560,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwAgCdASoQAAkAAUAmJZQCdH8AGA9mNCkE4AD+7Fv/nzx4A+vPBHHgN8hj3DUT17+m/BdI1Kz3YnolscMfoHoHlYIMUPCnSt+X4LZcC6wfcWZGV3WZWjDr19Jx31Xb7+QAAA==",
+    "alt": {
+      "fr": "Vue aérienne d’une coulée de lave orange qui serpente sur un champ de lave noire depuis un cratère fumant.",
+      "en": "Aerial view of an orange lava flow snaking across a black lava field from a smoking crater."
+    },
+    "caption": { "fr": "Le serpent", "en": "The snake" },
+    "place": {
+      "fr": "Péninsule de Reykjanes, Islande",
+      "en": "Reykjanes Peninsula, Iceland"
+    },
+    "takenAt": "2023-07-23",
+    "exif": {
+      "camera": "DJI Mini 2",
+      "focalLength": 4.49,
+      "aperture": 2.8,
+      "exposureTime": 0.004166666666666667,
+      "iso": 100
+    }
+  },
+  {
+    "id": "docomo-tower-trees",
+    "file": "docomo-tower-trees.jpg",
+    "source": "A7402813.jpg",
+    "sourceHash": "c33b85381b8413647a7c0888813a6fba2f89873fe910362026b0571f19a69341",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAwAgCdASoLABAAAUAmJQBOgMXSyYhdqoJCwAD8P/3tF1++73mGnqKLLY/QY6VvHLijf9LlzBxGfHKGbocv7Q+xZyhs0dsUMn49Cr/Jm9X3xNENBTvgg8RVgJ/bGUGk68O3bffIcoxTPIf4pxRblPHazDiv28lG5kobmM1/g88zb4ElRAvBwo7fzEXDQN2CAAA=",
+    "alt": {
+      "fr": "Le sommet d’un gratte-ciel à gradins, coiffé d’une antenne rouge et blanche, émerge entre des arbres verts.",
+      "en": "The top of a stepped skyscraper, crowned with a red and white antenna, rises between green trees."
+    },
+    "caption": { "fr": "Tour dans les arbres", "en": "Tower in the trees" },
+    "place": { "fr": "Tokyo, Japon", "en": "Tokyo, Japan" },
+    "takenAt": "2026-07-23",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 70,
+      "aperture": 5.6,
+      "exposureTime": 0.00125,
+      "iso": 100
+    }
+  },
+  {
+    "id": "jacques-cartier-valley",
+    "file": "jacques-cartier-valley.jpg",
+    "source": "jacquescartier.jpg",
+    "sourceHash": "4f8b1bab862502fa9443a38be853fa6def1e28d8bb8142295e3a0ea1f4e6b9e2",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwAgCdASoQAAwAAUAmJaACdAYvX/iiY9oZusFAAP4GLYjpGFybWwQwR58bnkJRiCNqcxAbGN8MBVlkJZznApZMeoGHYhhJ+YVu8s3Rmu84d7cGL5angMiq5vW/LxDfIXIiQGKsZYBjlPnEWuvJ7fL+WF+eLhP0sTfoZtCoUAA=",
+    "alt": {
+      "fr": "Une rivière serpente au fond d’une vallée profonde couverte de forêts aux couleurs d’automne.",
+      "en": "A river winds along the floor of a deep valley covered in autumn forest."
+    },
+    "caption": { "fr": "La vallée en automne", "en": "Autumn valley" },
+    "place": {
+      "fr": "Parc national de la Jacques-Cartier, Canada",
+      "en": "Jacques-Cartier National Park, Canada"
+    },
+    "takenAt": "2019-10-02",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 35-100/F4.0-5.6",
+      "focalLength": 37,
+      "aperture": 6.3,
+      "exposureTime": 0.004,
+      "iso": 200
+    }
+  },
+  {
+    "id": "chicago-from-above",
+    "file": "chicago-from-above.jpg",
+    "source": "chicago skyline.jpg",
+    "sourceHash": "dc45f43495f9cc2973ed74cf54e4dceef017f32a54d503a19f48ad574b2924ba",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwAgCdASoMABAAAUAmJYgCdAYtVvu+BZQaAAD+9vqtpybkUXkVvuO1MkgILvpgLY4FWGrwXtm78M2itbZFTsvUN5f2tJI6wsmtSqfVwYjdPY8rxl4Uq4+LHYOOF3h9H4ac7uMhotqViTkfR5s/ycOcpGvNd/J3AUkl1wAA",
+    "alt": {
+      "fr": "Vue plongeante au crépuscule sur les gratte-ciel illuminés de Chicago et une avenue qui file jusqu’à l’horizon.",
+      "en": "A view down at dusk over Chicago’s lit skyscrapers and an avenue running to the horizon."
+    },
+    "caption": { "fr": "Chicago d’en haut", "en": "Chicago from above" },
+    "place": { "fr": "Chicago, États-Unis", "en": "Chicago, USA" },
+    "takenAt": "2022-04-17",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 1.7,
+      "exposureTime": 0.125,
+      "iso": 400
+    }
+  },
+  {
+    "id": "lake-ashi-galleon",
+    "file": "lake-ashi-galleon.jpg",
+    "source": "A7404310.jpg",
+    "sourceHash": "f28e327064db48d50140c7650a859d135bc8272b9b676bf4e020fe751afbafeb",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABwAgCdASoQAAsAAUAmJbACdLoAAzfkPk7a4gRgAP7uVGZ4Cb9HIUAL5Gm9qba6K55xFjX5NW9HWKQTOWs4Cy2c5Mk2WQMUc+BWduXQg1LrTAuPD+YZJBVh3kRAMzG/Hh/ezhZYyq9JOzWf7LiMAA==",
+    "alt": {
+      "fr": "Un bateau en forme de galion rouge et or navigue sur un lac bleu, près d’un torii rouge au bord de la forêt.",
+      "en": "A red and gold galleon-style boat sails a blue lake near a red torii at the forest’s edge."
+    },
+    "caption": { "fr": "Galion sur le lac", "en": "Galleon on the lake" },
+    "place": { "fr": "Hakone, Japon", "en": "Hakone, Japan" },
+    "takenAt": "2026-08-04",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 67.7,
+      "aperture": 8,
+      "exposureTime": 0.0025,
+      "iso": 100
+    }
+  },
+  {
+    "id": "toronto-by-night",
+    "file": "toronto-by-night.jpg",
+    "source": "toronto by night skyline.jpg",
+    "sourceHash": "4b67d80d9ff994c679f03651aaa7d5314f9c2d5ed31f48e12ad294a23721c418",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwAgCdASoQAAwAAUAmJQBOgMVz33DjT4VcgAD+/w+nNMUQssi5C9mC9zJV2fOfRu8J8cB1r7RAKnCloTKidJtuBDYqGaz4HBtJnsqAz5GjxLbF01XtLjvMh50xv8SQtWsVBGIAAAA=",
+    "alt": {
+      "fr": "Les tours illuminées du quartier financier se dressent sur un ciel nocturne bleu foncé.",
+      "en": "The lit towers of the financial district stand against a deep blue night sky."
+    },
+    "caption": { "fr": "Toronto la nuit", "en": "Toronto by night" },
+    "place": { "fr": "Toronto, Canada", "en": "Toronto, Canada" },
+    "takenAt": "2020-06-26",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 1.7,
+      "exposureTime": 0.16666666666666666,
+      "iso": 400
+    }
+  },
+  {
+    "id": "boardwalk-to-the-glacier",
+    "file": "boardwalk-to-the-glacier.jpg",
+    "source": "totheglacier-1.jpg",
+    "sourceHash": "d8b3a6cc76668a454e4d7fb515a9fbcf251553f145290af410c1f0edb78ac9c6",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAAwAAUAmJQBOgCB+2KzDt1AA/uic6bJejxaPSO31mX5NT4cKLgm0YhU2BCC0kks9nTsCqA4SX0Fd4m8QvBKrQviQczfLHuMOAyKcLdq+hQfpT4XajG2GAAA=",
+    "alt": {
+      "fr": "Un trottoir de bois serpente dans la lande vers une silhouette et des montagnes couvertes de glaciers.",
+      "en": "A wooden boardwalk winds across the heath toward a figure and glacier-covered mountains."
+    },
+    "caption": { "fr": "Vers le glacier", "en": "To the glacier" },
+    "place": { "fr": "Islande", "en": "Iceland" },
+    "takenAt": "2023-07-28",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 22,
+      "aperture": 22,
+      "exposureTime": 0.005,
+      "iso": 200
+    }
+  },
+  {
+    "id": "kasuga-lanterns",
+    "file": "kasuga-lanterns.jpg",
+    "source": "A7404156.jpg",
+    "sourceHash": "150f543eca4b8e0b6b9843d143fe0771286194636b4da71b3b60540b1fc5af40",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAwAgCdASoLABAAAUAmJZgCdAYvXbE6gUkyIAD+B1ahP+ZIa1crfgN+del/LBYf8UPuyJYWLL+PVrIaUw5lSR4XfW93J51Ip3DCjbha3HE8Yq9HzqxuH2X3h/0Sv4Nqq/7Hcwve2pnTHAtDY2vY8N/mrtys+FO8nsLmRJZQI0AAAA==",
+    "alt": {
+      "fr": "Des lanternes de pierre couvertes de mousse s’alignent sous un grand arbre noueux, près d’un bâtiment orné de lanternes de bronze.",
+      "en": "Moss-covered stone lanterns line up beneath a large gnarled tree, near a building hung with bronze lanterns."
+    },
+    "caption": { "fr": "Lanternes moussues", "en": "Mossy lanterns" },
+    "place": { "fr": "Nara, Japon", "en": "Nara, Japan" },
+    "takenAt": "2026-08-01",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 59.9,
+      "aperture": 4.5,
+      "exposureTime": 0.01,
+      "iso": 100
+    }
+  },
+  {
+    "id": "palm-grove",
+    "file": "palm-grove.jpg",
+    "source": "P1052119-2.jpg",
+    "sourceHash": "4908c3d3d043bcd77f6a4077ddac0b698f0dbc477c7dae95904a0c8ca5571bf1",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADQAgCdASoQAAwAAUAmJbACdDiAN4oIiojOYvXF69gAAP75Z6U0wKjZVaTiPms9xL75epe8u43IT5jFRzfT8fBubZrwptHe/QVcqOHJRtFlB9znJLMk1KFn7r7Dsj6j768siaWG78vOe2lsuGKqyiVdwzn2tgHpl4nmf35+KaXuDdG0y3/rAyRlr+/AFnOblcAAAA==",
+    "alt": {
+      "fr": "Un bosquet de grands palmiers élancés pousse sur une pelouse autour d’un petit kiosque, sous un ciel bleu.",
+      "en": "A grove of tall, slender palm trees grows on a lawn around a small gazebo, under a blue sky."
+    },
+    "caption": { "fr": "La palmeraie", "en": "The palm grove" },
+    "takenAt": "2025-09-15",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 12,
+      "aperture": 13,
+      "exposureTime": 0.00625,
+      "iso": 200
+    }
+  },
+  {
+    "id": "tokyo-tower-night",
+    "file": "tokyo-tower-night.jpg",
+    "source": "A7402863.jpg",
+    "sourceHash": "5031aa7cd63e46b08a10b01315107488a82e97f4a8c8a4d0ab5c82da802b1011",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAsAAUAmJZwAAp2y3Rb7FMAA/v26E838Mb9G9IR2brk1JxCM6pl5QGFHhVVb2Lkx8BYzgSSQZCc+SvZt/2rPs2wJyT8PWBNEsAAA",
+    "alt": {
+      "fr": "La tour de Tokyo, illuminée en bleu et rouge, se dresse dans la ville nocturne à côté d’un gratte-ciel éclairé.",
+      "en": "Tokyo Tower, lit in blue and red, rises from the night city beside a lit skyscraper."
+    },
+    "caption": { "fr": "La tour et la nuit", "en": "Tower at night" },
+    "place": { "fr": "Tokyo, Japon", "en": "Tokyo, Japan" },
+    "takenAt": "2026-07-23",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 56.7,
+      "aperture": 3.2,
+      "exposureTime": 0.016666666666666666,
+      "iso": 3200
+    }
+  },
+  {
+    "id": "moraine-lake",
+    "file": "moraine-lake.jpg",
+    "source": "lake momo.jpg",
+    "sourceHash": "9db62b75ebb1fdbf35cd1396f961dba3e3a67ccbe8689a34d98c188156096549",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABwAgCdASoMABAAAUAmJbACdLoAEJAYlSkGi7gAAPw3LpcWCEROZwftr0Od46BowrT+tqDYIi+xt92WHydZgMNGhu7soVn7AtfxiYoS9vNgWNi8i2UO7eaV24zLnr5/yYp2kA+/4gNSwVN40Ip9tljzje0YZW5EfjG3mUZytVV/0YQ9dqC+vV8//uPITyK9Dx58AAAA",
+    "alt": {
+      "fr": "Un lac turquoise au pied de pics rocheux striés de neige, encadré par des sapins.",
+      "en": "A turquoise lake at the foot of snow-streaked rocky peaks, framed by fir trees."
+    },
+    "caption": { "fr": "Turquoise", "en": "Turquoise" },
+    "place": { "fr": "Lac Moraine, Canada", "en": "Moraine Lake, Canada" },
+    "takenAt": "2021-07-21",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 18,
+      "exposureTime": 0.00625,
+      "iso": 200
+    }
+  },
+  {
+    "id": "vessel-hudson-yards",
+    "file": "vessel-hudson-yards.jpg",
+    "source": "vessel.jpg",
+    "sourceHash": "ad532be1f6a0558b0f15b7661cd9e6c67774fb586944964de8a539c6d1ca9ebc",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABwAgCdASoMABAAAUAmJZQCdAYv1a+qSsRwhfAAAP7Sj49YVP//WwwMDX0bCVGLlB9nrVFeyBlG/8yW5xMzvCW7oHvEhmcFJc4/JpFV3y9vTNTwN/Y2ZvHnMIukYfiCGKMyRGcb8azzkeyYxagm18hi8c2T0n0ZBuJOq+ue/IAAAA==",
+    "alt": {
+      "fr": "Vue plongeante dans le Vessel, un enchevêtrement d’escaliers cuivrés où circulent des visiteurs.",
+      "en": "A view down into the Vessel, a lattice of copper-colored stairways with visitors walking through."
+    },
+    "caption": { "fr": "Escaliers sans fin", "en": "Endless stairs" },
+    "place": { "fr": "New York, États-Unis", "en": "New York, USA" },
+    "takenAt": "2019-12-22",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 12,
+      "aperture": 5,
+      "exposureTime": 0.004,
+      "iso": 200
+    }
+  },
+  {
+    "id": "red-bridge-waterfall",
+    "file": "red-bridge-waterfall.jpg",
+    "source": "A7403847.jpg",
+    "sourceHash": "c5f60814c613c813c27d26ff473679cd1937385e91f6788169c3018068a91049",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABwAgCdASoQAAsAAUAmJaAC7AYv1ny8evtCNScAAP7+X0smNdz45hdFST0dIKpsXK2umHLBtURlETYTPTKmxz+fZ/d/7jG10Zoo64b4OTSoV4X/SUCR1o0C1Rjr3l4JrK3n6P2zV2iUl/3NGZKNb/RTUHPb61AA",
+    "alt": {
+      "fr": "Un pont rouge enjambe un torrent rocheux devant une cascade, sous les érables.",
+      "en": "A red bridge spans a rocky stream in front of a waterfall, under maple trees."
+    },
+    "caption": { "fr": "Le pont rouge", "en": "The red bridge" },
+    "place": { "fr": "Minoh, Japon", "en": "Minoh, Japan" },
+    "takenAt": "2026-07-30",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 70,
+      "aperture": 7.1,
+      "exposureTime": 0.0125,
+      "iso": 1000
+    }
+  },
+  {
+    "id": "toronto-skyline-cn-tower",
+    "file": "toronto-skyline-cn-tower.jpg",
+    "source": "TorontoSkyline.jpg",
+    "sourceHash": "5fb43b9c3c4b63f4f5241e7fec7e3f42683ee5e18aeade6df0ee6f44f81c78aa",
+    "width": 2560,
+    "height": 1442,
+    "blurDataURL": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABQAgCdASoQAAkAAUAmJZACdDBRCITMukBQmMAAzfPzMW3B38/QwxJsPNUVDk7Me7KymqOSN15ywVkxrhV/uqLuqYC2oflWFc+1FXztgNjnwTdvSJCs4vRvv87xbd9PVEkoIul36yJ0daLXm9LSDdL/HhWCT2vLC9ZMRK/HgAA=",
+    "alt": {
+      "fr": "La tour CN et les gratte-ciel de Toronto se dressent au bord du lac sous de gros nuages blancs.",
+      "en": "The CN Tower and Toronto’s skyscrapers rise by the lake under big white clouds."
+    },
+    "caption": { "fr": "Toronto depuis l’eau", "en": "Toronto from the water" },
+    "place": { "fr": "Toronto, Canada", "en": "Toronto, Canada" },
+    "takenAt": "2020-06-29",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 9,
+      "exposureTime": 0.001,
+      "iso": 200
+    }
+  },
+  {
+    "id": "jokulsarlon-icebergs",
+    "file": "jokulsarlon-icebergs.jpg",
+    "source": "iceberg-3.jpg",
+    "sourceHash": "6ee03623dbe8d2e8a15d0f8a0e4cb05bc8ae99971b07a661790f56826b141797",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABwAgCdASoQAAwAAUAmJagCdLoAEI8X+JszvG7AAP3b7aMJYL22vS14B2wBk5M/IPgkmtWJiFqFT5M4EDHg7mLW3Emq1FDvXRLc1A6sUqBERedvXObj5xlnUoCHi/6P4zfIbn77e/WsDsNGY/ApoKRcAAA=",
+    "alt": {
+      "fr": "Des icebergs bleu glacier flottent sur une lagune devant une langue glaciaire et des montagnes enneigées.",
+      "en": "Glacier-blue icebergs float in a lagoon before a glacier tongue and snowy mountains."
+    },
+    "caption": { "fr": "Bleu glacier", "en": "Glacier blue" },
+    "place": { "fr": "Jökulsárlón, Islande", "en": "Jökulsárlón, Iceland" },
+    "takenAt": "2023-07-28",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 35-100/F4.0-5.6",
+      "focalLength": 60,
+      "aperture": 9,
+      "exposureTime": 0.0008,
+      "iso": 200
+    }
+  },
+  {
+    "id": "milky-way-peak",
+    "file": "milky-way-peak.jpg",
+    "source": "galaxy.jpg",
+    "sourceHash": "a6beefb0d5d99d732cc517d5bd752525cb0f5cf38217e481ef06a3e3318f839c",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoMABAAAUAmJZACdAEO+otxckAA/v0gnOfjXcCg5sVzwqGHU1ly/pErI61j3cr9yCfpVE/md1L9JfcNXl+3WCTeU0kmk8MihucESQAA",
+    "alt": {
+      "fr": "La Voie lactée s’étend au-dessus d’un sommet rocheux dans un ciel constellé d’étoiles.",
+      "en": "The Milky Way stretches above a rocky peak in a star-filled sky."
+    },
+    "caption": { "fr": "Voie lactée", "en": "Milky Way" },
+    "takenAt": "2022-07-20",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 1.7,
+      "exposureTime": 8,
+      "iso": 3200
+    }
+  },
+  {
+    "id": "winding-road-to-the-sea",
+    "file": "winding-road-to-the-sea.jpg",
+    "source": "P1052612-Enhanced-NR.jpg",
+    "sourceHash": "4ddba5dcf9c392e58eb7364f0b021e61319a914fe78312cfb976bd94470ae871",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoMABAAAUAmJQBOgCHetBxrxWAA/uI/4xgIjfrfWWWGo+e/47KAfz2DAX598wIEfVgUF0QUwVy+6fLvLNhMKwuJaZAhQ3oX674aixUEF45bhlvTxsTytm3uYeNAAA==",
+    "alt": {
+      "fr": "Une route en lacets descend à travers la forêt vers une ville côtière et l’océan.",
+      "en": "A winding road descends through the forest toward a coastal town and the ocean."
+    },
+    "caption": { "fr": "Lacets vers la mer", "en": "Switchbacks to the sea" },
+    "takenAt": "2025-09-22",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 35-100/F4.0-5.6",
+      "focalLength": 51,
+      "aperture": 9,
+      "exposureTime": 0.005,
+      "iso": 200
+    }
+  },
+  {
+    "id": "shibuya-crossing-dusk",
+    "file": "shibuya-crossing-dusk.jpg",
+    "source": "A7402686.jpg",
+    "sourceHash": "059f489f14b3918378e522b6f67f4d849c384f8a4cc09a8062e0c9591ff7577a",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAQCdASoQAAsAAUAmJYwCdAC9LWE7pqAA/vlnY8ky73h5xb8l8j2/kAF0Phm6K4frKZvSuwl4a+YGfY9v74pyhLHTfr4oQ77KhXtBBKbej4cwJZ4rsv6fXP/osai3WZIPY4tA3wsB9TLZAsVZBRQeuWYAAA==",
+    "alt": {
+      "fr": "Au crépuscule, le carrefour de Shibuya sous ses écrans géants, traversé par des karts et un bus.",
+      "en": "Shibuya Crossing at dusk under its giant screens, crossed by go-karts and a bus."
+    },
+    "caption": { "fr": "Carrefour au crépuscule", "en": "Crossing at dusk" },
+    "place": { "fr": "Tokyo, Japon", "en": "Tokyo, Japan" },
+    "takenAt": "2026-07-22",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 24,
+      "aperture": 4,
+      "exposureTime": 0.03333333333333333,
+      "iso": 250
+    }
+  },
+  {
+    "id": "elk-in-the-forest",
+    "file": "elk-in-the-forest.jpg",
+    "source": "dear.jpg",
+    "sourceHash": "5ebb5c330f9a481cb4776f776abcad5886e881b2c1c2c2cc16969be85a5b6b1c",
+    "width": 1920,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoMABAAAUAmJZQC7AEO+MNKfyUAAP7+d0PUHr/hIkYv024v/jmO9NWqkP2/QnfuwK1dC0HAVDNaWYipdR5pOqWLGwAAAA==",
+    "alt": {
+      "fr": "Un wapiti mâle aux bois naissants se tient dans une clairière au pied de grands pins.",
+      "en": "A bull elk with growing antlers stands in a clearing beneath tall pines."
+    },
+    "caption": { "fr": "Le wapiti", "en": "The elk" },
+    "takenAt": "2021-07-23",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 35-100/F4.0-5.6",
+      "focalLength": 100,
+      "aperture": 5.6,
+      "exposureTime": 0.002,
+      "iso": 200
+    }
+  },
+  {
+    "id": "hanbok-veil",
+    "file": "hanbok-veil.jpg",
+    "source": "A7402557.jpg",
+    "sourceHash": "696b21f921db69e0e40556a6633f5b558e477f10e228d21a6393320033f7e2a5",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACQAgCdASoLABAAAUAmJZwCdAYvXyA2365iHeWy4AD++gGH/OyBJ4fnnD67rZ/Sj1u33gAOb45J0+2vf3phQ9ac+02IR3Sfx/51ey2e54PN0Qzoy6ZyyXKxv3+m37oswzDMom1sxoBFIx/oAAA=",
+    "alt": {
+      "fr": "Une femme en hanbok rose et bleu fait voler un voile clair dans la cour pavée d’un palais traditionnel.",
+      "en": "A woman in a pink and blue hanbok swirls a sheer veil in the paved courtyard of a traditional palace."
+    },
+    "caption": { "fr": "Le voile", "en": "The veil" },
+    "place": { "fr": "Séoul, Corée du Sud", "en": "Seoul, South Korea" },
+    "takenAt": "2026-07-21",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 70,
+      "aperture": 2.8,
+      "exposureTime": 0.008,
+      "iso": 160
+    }
+  },
+  {
+    "id": "slot-canyon-wave",
+    "file": "slot-canyon-wave.jpg",
+    "source": "Vague.jpg",
+    "sourceHash": "74d6200b4444e78f4ecd0f75883b08b2db006f0cae5b2c902591c79b7f591318",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACQAgCdASoQAAwAAUAmJbACdEf/i169W0hsl+GNAAD+/v5KOt52nuw3rHBAV54NAu3aw/Re0Vu1w4EzqcepTqdYtu48ee5rE/IPQIYYrkkGrtvAC94SgL0O/SKC0Qud96cgc7tLoaAy6n/tc/T/sd/tGHGMEtupyS4QAA==",
+    "alt": {
+      "fr": "Des parois de grès orange ondulent comme une vague dans un canyon étroit éclairé d’en haut.",
+      "en": "Orange sandstone walls ripple like a wave in a narrow canyon lit from above."
+    },
+    "caption": { "fr": "La vague", "en": "The wave" },
+    "place": { "fr": "Arizona, États-Unis", "en": "Arizona, USA" },
+    "takenAt": "2022-07-20",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 12,
+      "aperture": 3.5,
+      "exposureTime": 0.0125,
+      "iso": 200
+    }
+  },
+  {
+    "id": "couple-at-the-crossing",
+    "file": "couple-at-the-crossing.jpg",
+    "source": "A7404207.jpg",
+    "sourceHash": "2c01ecdf9a9cdc7fa0a7e65d32b480557965d97dd9d9435c123b81e7faa86352",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAABwAgCdASoQAAsAAUAmJZQCdDBLSIfMPIrAYzvIAP75MCi78P26u2almul/c1LEyn3yhwQIp4NE0I47lJ1n+S9aBaToLNn2KETlEx6vT77YQQ8AraOe74XM57HejQQqN+tSXhj/ORFYAc8ZkrN9qVpEBDn5847xrC+vaV3gYXWHpZniM5d8FAAA",
+    "alt": {
+      "fr": "De dos, un couple attend au bord d’un passage piéton face à des enseignes lumineuses, la nuit.",
+      "en": "Seen from behind, a couple waits at the edge of a crosswalk facing bright signs at night."
+    },
+    "caption": { "fr": "En attendant le vert", "en": "Waiting for green" },
+    "place": { "fr": "Tokyo, Japon", "en": "Tokyo, Japan" },
+    "takenAt": "2026-08-02",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 33,
+      "aperture": 2.8,
+      "exposureTime": 0.025,
+      "iso": 250
+    }
+  },
+  {
+    "id": "landmannalaugar-striped-hills",
+    "file": "landmannalaugar-striped-hills.jpg",
+    "source": "salon cest sur.jpg",
+    "sourceHash": "d6d087215bcfff5bcb25c98e67cdea63d88be768aaabbf2ce10afbb1d1fe7692",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwAgCdASoQAAwAAUAmJYwCdAEDyJyVM/k2AAD+6D8yaq9l6lzQBRfxjRU4/i5wePv37WG6imIP6eDcEoWvZtNS1/l6RQHAB3DLOZi7pI4oOGXTDTt7AX6HWHdxK1zhjr94XmLlAAA=",
+    "alt": {
+      "fr": "Des collines striées de vert et d’ocre s’élèvent dans la brume derrière un champ de lave.",
+      "en": "Hills streaked with green and ochre rise into the mist behind a lava field."
+    },
+    "caption": { "fr": "Collines striées", "en": "Striped hills" },
+    "place": {
+      "fr": "Landmannalaugar, Islande",
+      "en": "Landmannalaugar, Iceland"
+    },
+    "takenAt": "2023-07-26",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G 25/F1.7",
+      "focalLength": 25,
+      "aperture": 16,
+      "exposureTime": 0.00625,
+      "iso": 200
+    }
+  },
+  {
+    "id": "quebec-winter-lights",
+    "file": "quebec-winter-lights.jpg",
+    "source": "quebec lights.jpg",
+    "sourceHash": "8c96b81563e47166bdb7afa890dbf0c8219f60cac58ac805ea5328b456869f1e",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAADwAgCdASoQAAwAAUAmJbACdLoAfhsRB5h0W8O5SiwZAAD+6arM6Yl73mWzCX2DplXrrVhvyPtBe1O/tRh0g2OSEFyWv8oD4pnwQ7P8YqL/yjX9mCcYfibVx4LfLeyC6fjXYuwBwA0YdFdxe2Z+89kO7hVHxioZNPank9/E/8HSQf+75r7BfbCgNTn41V1/78ao/336LX75rp98rywlH9ik5rbxpZMenXAAAA==",
+    "alt": {
+      "fr": "Des traînées de phares rouges et blanches longent une rue enneigée au pied d’immeubles éclairés, à l’heure bleue.",
+      "en": "Red and white light trails run along a snowy street below lit buildings at blue hour."
+    },
+    "caption": { "fr": "Lumières d’hiver", "en": "Winter lights" },
+    "place": { "fr": "Québec, Canada", "en": "Quebec City, Canada" },
+    "takenAt": "2020-12-15",
+    "exif": {
+      "camera": "Panasonic Lumix GX9",
+      "lens": "LUMIX G VARIO 12-32/F3.5-5.6",
+      "focalLength": 25,
+      "aperture": 22,
+      "exposureTime": 6,
+      "iso": 200
+    }
+  },
+  {
+    "id": "bird-of-prey-in-flight",
+    "file": "bird-of-prey-in-flight.jpg",
+    "source": "A7404028.jpg",
+    "sourceHash": "c50cbe58884cb8564a631ad26331ca07d410ed4e2995ed3433574e77cf92cd17",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACQAgCdASoLABAAAUAmJYwCdEf/i1tOEipdExmbNgD+7ml47l1kcwIVw6pip7YGu1G9XRVzUJ2mu7pFhf/rpal5umbM3owMAYr/ELzOfo8jaGETLyw5+8+53tIkyBqXK9VwwmIRz+bSttXr9/ct5lvURscqALIAdfxpKsl/D4gP/Mv//j6xnpwbmkAAAA==",
+    "alt": {
+      "fr": "Vu d’en dessous, un rapace aux ailes brunes déployées plane contre un ciel clair.",
+      "en": "Seen from below, a bird of prey with spread brown wings glides against a pale sky."
+    },
+    "caption": { "fr": "Envol", "en": "Taking wing" },
+    "takenAt": "2026-07-31",
+    "exif": {
+      "camera": "Sony A7 IV",
+      "lens": "24-70mm F2.8 DG DN II | Art 024",
+      "focalLength": 67.7,
+      "aperture": 5,
+      "exposureTime": 0.0015625,
+      "iso": 50
+    }
+  }
+]
