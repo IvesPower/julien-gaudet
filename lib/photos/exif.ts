@@ -23,7 +23,9 @@ export function cameraName(
   model: string | undefined,
 ): { name?: string; known: boolean } {
   const cleanModel = model?.trim() ?? "";
-  const friendly = KNOWN_CAMERAS[cleanModel];
+  const friendly = Object.hasOwn(KNOWN_CAMERAS, cleanModel)
+    ? KNOWN_CAMERAS[cleanModel]
+    : undefined;
   if (friendly) return { name: friendly, known: true };
   const name = [make?.trim(), cleanModel]
     .filter((part) => part)

@@ -2,6 +2,17 @@ import { describe, expect, it } from "vitest";
 import { cameraName, toPhotoExif } from "./exif.ts";
 
 describe("cameraName", () => {
+  it("does not match prototype keys as known cameras", () => {
+    expect(cameraName("Acme", "constructor")).toEqual({
+      name: "Acme constructor",
+      known: false,
+    });
+    expect(cameraName(undefined, "toString")).toEqual({
+      name: "toString",
+      known: false,
+    });
+  });
+
   it("maps a known model to its friendly name", () => {
     expect(cameraName("SONY", "ILCE-7M4")).toEqual({
       name: "Sony A7 IV",

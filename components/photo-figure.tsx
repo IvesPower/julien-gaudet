@@ -4,6 +4,7 @@ import type { AppLocale } from "@/i18n/routing";
 import type { ResolvedPhoto } from "@/lib/content";
 import { formatExif } from "@/lib/format-exif";
 import { langAttr } from "@/lib/lang-attr";
+import styles from "./photo-figure.module.css";
 
 /** One photo, uncropped, with its anchor (the photo id) and its caption. */
 export async function PhotoFigure({
@@ -31,6 +32,7 @@ export async function PhotoFigure({
         width={photo.width}
         height={photo.height}
         alt={photo.alt}
+        className={styles.image}
         quality={90}
         placeholder="blur"
         blurDataURL={photo.blurDataURL}

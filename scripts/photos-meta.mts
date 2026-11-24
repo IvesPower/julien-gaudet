@@ -2,6 +2,7 @@
 // Usage: pnpm photos:meta <folder>
 import { homedir } from "node:os";
 import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { syncPhotos } from "../lib/photos/sync.ts";
 
 const folder = process.argv[2];
@@ -17,8 +18,8 @@ const sourceDir =
 
 const report = await syncPhotos({
   sourceDir,
-  contentDir: new URL("../content", import.meta.url).pathname,
-  publicDir: new URL("../public/photos", import.meta.url).pathname,
+  contentDir: fileURLToPath(new URL("../content", import.meta.url)),
+  publicDir: fileURLToPath(new URL("../public/photos", import.meta.url)),
 });
 
 const lines: Array<[string, string[]]> = [

@@ -21,5 +21,10 @@ Feature: Photo page
     And the first landscape photo keeps its ratio
 
   Scenario: Share a direct link to a photo
-    When I open "/fr/photo#namba-yasaka-lion"
-    Then the photo "namba-yasaka-lion" is shown
+    When I open the photo page at the second photo's anchor
+    Then the second photo is shown
+
+  Scenario: Photos fit a phone screen
+    Given the viewport is 390 pixels wide
+    When I open "/fr/photo"
+    Then the first photo fits the viewport width and keeps its ratio

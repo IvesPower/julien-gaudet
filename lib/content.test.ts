@@ -1,4 +1,4 @@
-import { mkdir, mkdtemp, writeFile } from "node:fs/promises";
+import { mkdir, mkdtemp, readFile, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
@@ -313,7 +313,13 @@ describe("getPhotos", () => {
     "the real photos are valid in %s",
     async (locale) => {
       const photos = await getPhotos(locale);
-      expect(photos).toHaveLength(90);
+      const raw: unknown = JSON.parse(
+        await readFile(
+          path.join(process.cwd(), "content", "photos.json"),
+          "utf8",
+        ),
+      );
+      expect(photos).toHaveLength(Array.isArray(raw) ? raw.length : -1);
       expect(photos.every((p) => p.alt.length > 0)).toBe(true);
     },
   );
