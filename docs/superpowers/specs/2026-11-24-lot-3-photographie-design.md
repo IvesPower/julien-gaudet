@@ -99,6 +99,7 @@ Chaque entrée mélange deux sortes de champs. Le script réécrit les champs ca
 | Champ         | Qui l'écrit         | Type                                    | Remarque                                                                                                                 |
 | ------------- | ------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | `id`          | script, puis Julien | chaîne                                  | Voir plus haut ; modifiable                                                                                              |
+| `file`        | script              | chaîne `<id>.jpg`                       | Nom du fichier servi ; le script le met à jour quand il renomme le fichier après un changement d'`id`                    |
 | `source`      | script              | chaîne                                  | Nom du fichier original : clé de rapprochement entre l'original et l'entrée                                              |
 | `sourceHash`  | script              | chaîne                                  | Empreinte de l'original                                                                                                  |
 | `width`       | script              | entier                                  | Du fichier servi                                                                                                         |
