@@ -12,6 +12,7 @@
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
     "test:e2e": "bddgen && playwright test",
+    "photos:meta": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/photos-meta.mts",
     "check:static": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check-static.mts"
   },
   "dependencies": {

@@ -1,7 +1,9 @@
 import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import { basename } from "node:path";
-import { parse } from "exifr";
+// A default import: Node's native ESM loader finds no named exports in exifr.
+import exifr from "exifr";
+
 import sharp from "sharp";
 import type { ScannedPhoto } from "./entries.ts";
 import { type RawExif, toPhotoExif } from "./exif.ts";
@@ -21,7 +23,8 @@ export async function readPhotoExif(
   file: string,
 ): Promise<RawExif | undefined> {
   // A Buffer, not a path: exifr's own file reader breaks on recent Node versions.
-  const raw: RawExif | undefined = await parse(await readFile(file), {
+  // oxlint-disable-next-line import/no-named-as-default-member -- see the import
+  const raw: RawExif | undefined = await exifr.parse(await readFile(file), {
     pick: [
       "Make",
       "Model",
