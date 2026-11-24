@@ -71,7 +71,13 @@
   },
   "PhotoPage": {
     "title": "Photography",
-    "placeholder": "My photos are coming here soon."
+    "heading": "Behind the lens.",
+    "description": "Photographs by Julien Gaudet from his travels and walks, shown uncropped.",
+    "intro": "Landscapes, cities and moments caught along my travels, shown exactly as I framed them.",
+    "instagram": "Instagram",
+    "copyright": "© Julien Gaudet, all rights reserved.",
+    "takenOn": "Taken on {date}",
+    "credit": "Photo: {name}"
   },
   "TalksPage": {
     "title": "Talks",

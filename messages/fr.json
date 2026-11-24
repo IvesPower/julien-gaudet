@@ -71,7 +71,13 @@
   },
   "PhotoPage": {
     "title": "Photographie",
-    "placeholder": "Mes photos arrivent bientôt ici."
+    "heading": "Derrière l’objectif.",
+    "description": "Les photographies de Julien Gaudet, de ses voyages et de ses balades, montrées sans recadrage.",
+    "intro": "Des paysages, des villes et des instants pris au fil de mes voyages, présentés tels que je les ai cadrés.",
+    "instagram": "Instagram",
+    "copyright": "© Julien Gaudet, tous droits réservés.",
+    "takenOn": "Prise le {date}",
+    "credit": "Photo : {name}"
   },
   "TalksPage": {
     "title": "Conférences",

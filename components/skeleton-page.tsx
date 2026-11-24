@@ -4,7 +4,7 @@ import type { PageNamespace } from "@/lib/page-metadata";
 /** Pages still waiting for their content. */
 export type SkeletonNamespace = Exclude<
   PageNamespace,
-  "ExperiencePage" | "ProjectsPage"
+  "ExperiencePage" | "ProjectsPage" | "PhotoPage"
 >;
 
 /** Placeholder page until the real content and design arrive. */

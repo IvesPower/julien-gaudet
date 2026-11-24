@@ -17,8 +17,6 @@ Feature: Skeleton pages
       | /en/experience       | Experience       | en   |
       | /fr/projets          | Projets          | fr   |
       | /en/projects         | Projects         | en   |
-      | /fr/photo            | Photographie     | fr   |
-      | /en/photo            | Photography      | en   |
       | /fr/conferences      | Conférences      | fr   |
       | /en/talks            | Talks            | en   |
       | /fr/podcast          | Pizza Ananar     | fr   |
