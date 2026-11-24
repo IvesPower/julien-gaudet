@@ -11,9 +11,9 @@ To ask for permission, get in touch through the site: https://julien-gaudet.verc
 
 Copyright (c) Julien Gaudet. Tous droits réservés.
 
-Les photographies de ce dossier sont l'oeuvre de Julien Gaudet. Elles ne
+Les photographies de ce dossier sont l'œuvre de Julien Gaudet. Elles ne
 peuvent être ni copiées, ni redistribuées, ni modifiées, ni réutilisées dans
-une autre oeuvre sans son accord écrit préalable. La licence du code source du
+une autre œuvre sans son accord écrit préalable. La licence du code source du
 site ne s'applique pas à ces photographies.
 
 Pour demander une autorisation, passer par le site : https://julien-gaudet.vercel.app

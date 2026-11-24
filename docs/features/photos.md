@@ -13,7 +13,7 @@ Les photos de la page `/photo` vivent dans `public/photos/` (fichiers servis) et
 
 ## Le script `pnpm photos:meta <dossier>`
 
-`<dossier>` est le dossier des originaux (`~` est accepté). Seuls les `.jpg` et `.jpeg` sont traités, les autres fichiers sont signalés et ignorés.
+`<dossier>` est le dossier des originaux (`~` est accepté). Seuls les `.jpg` et `.jpeg` sont traités, les autres fichiers sont signalés et ignorés. Les fichiers cachés (dont le nom commence par un point) et les sous-dossiers sont ignorés sans rien signaler.
 
 Pour chaque original :
 
@@ -26,7 +26,7 @@ JPEG, bord long de 2 560 px au plus (jamais d'agrandissement), qualité 90 (mozj
 
 ### Ce que le script écrit
 
-Champs calculés, remplacés à chaque passage : `file` (`<id>.jpg`, voir « Renommer un `id` »), `source`, `sourceHash`, `width`, `height`, `blurDataURL` (placeholder flou de 16 px en WebP), `takenAt` (`YYYY-MM-DD`) et `exif` (`camera`, `lens`, `focalLength`, `aperture`, `exposureTime`, `iso`). Si l'original n'a plus de date ou de données de prise de vue, le champ disparaît.
+À la création, le script écrit `file` (`<id>.jpg`) et `source` ; `file` ne change ensuite que lors d'un renommage d'`id` (voir « Renommer un `id` ») et `source` n'est jamais réécrit. À chaque passage, pour les entrées dont l'original est présent, il rafraîchit `sourceHash`, `width`, `height`, `blurDataURL` (placeholder flou de 16 px en WebP), `takenAt` (`YYYY-MM-DD`) et `exif` (`camera`, `lens`, `focalLength`, `aperture`, `exposureTime`, `iso`). Si l'original n'a plus de date ou de données de prise de vue, le champ disparaît.
 
 ### Ce que le script ne touche jamais
 
@@ -63,7 +63,7 @@ Supprimer à la main son entrée dans `content/photos.json` **et** son fichier d
 
 ## Ce qui fait échouer le build
 
-`getPhotos` lève une `ContentError` qui nomme le fichier et le champ :
+`getPhotos` (et `getProfile` pour le lien Instagram) lève une `ContentError` qui nomme le fichier et le champ :
 
 - `alt.fr` ou `alt.en` vide ou absent ;
 - un champ inconnu, une date qui n'est pas `YYYY-MM-DD`, un `id` qui n'est pas en kebab-case ;
@@ -72,7 +72,7 @@ Supprimer à la main son entrée dans `content/photos.json` **et** son fichier d
 - un fichier absent de `public/photos/` (`missing file public/photos/<fichier>`) ;
 - `instagram` qui n'est pas une URL.
 
-Le script lui-même échoue, sans rien écrire, si deux photos obtiendraient le même `id`.
+Le script lui-même échoue, sans modifier `photos.json` (des fichiers servis ont pu être renommés avant), si deux photos obtiendraient le même `id`.
 
 ## Poids du dépôt
 
