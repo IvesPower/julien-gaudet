@@ -1,5 +1,6 @@
 import {
   mkdir,
+  readdir,
   mkdtemp,
   readFile,
   rm,
@@ -159,5 +160,31 @@ describe("syncPhotos", () => {
     await run();
     const content = await readFile(jsonPath(), "utf8");
     expect(await check(content, { parser: "json" })).toBe(true);
+  });
+
+  it("recovers on the next run when a rename was followed by a failure", async () => {
+    await makeJpeg("Lake Momo.jpg", 400, 300);
+    await run();
+    const photos = await readPhotos();
+    await writeFile(
+      jsonPath(),
+      JSON.stringify(photos.map((p) => Object.assign(p, { id: "lac" }))),
+    );
+    await writeFile(join(sourceDir, "broken.jpg"), "not an image");
+    await expect(run()).rejects.toThrow(/unknown file format/i);
+    await unlink(join(sourceDir, "broken.jpg"));
+    const report = await run();
+    expect(report.renamed).toEqual([{ from: "lake-momo", to: "lac" }]);
+    const [photo] = await readPhotos();
+    expect(photo?.file).toBe("lac.jpg");
+    expect(existsSync(join(publicDir, "lac.jpg"))).toBe(true);
+  });
+
+  it("detects id collisions before rendering anything", async () => {
+    await makeJpeg("Quebec.jpg", 300, 400);
+    await makeJpeg("quebec.jpeg", 300, 400);
+    await expect(run()).rejects.toThrow(/quebec/);
+    expect(await readdir(publicDir)).toEqual([]);
+    expect(existsSync(jsonPath())).toBe(false);
   });
 });

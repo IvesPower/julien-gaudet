@@ -62,17 +62,23 @@ async function applyRenames(
       result.push(photo);
       continue;
     }
-    const clashes =
-      photos.some((other) => other !== photo && other.file === expected) ||
-      existsSync(join(publicDir, expected));
-    if (clashes) {
+    if (photos.some((other) => other !== photo && other.file === expected)) {
       throw new Error(
-        `Cannot rename "${photo.file}" to "${expected}": that file already exists`,
+        `Cannot rename "${photo.file}" to "${expected}": another entry serves that file`,
       );
     }
     const from = join(publicDir, photo.file);
-    // oxlint-disable-next-line no-await-in-loop -- renames run one at a time
-    if (existsSync(from)) await rename(from, join(publicDir, expected));
+    const to = join(publicDir, expected);
+    if (existsSync(from)) {
+      if (existsSync(to)) {
+        throw new Error(
+          `Cannot rename "${photo.file}" to "${expected}": that file already exists`,
+        );
+      }
+      // oxlint-disable-next-line no-await-in-loop -- renames run one at a time
+      await rename(from, to);
+    }
+    // When only `to` exists, a previous run renamed it and failed before saving.
     renamed.push({ from: photo.file.replace(/\.jpg$/, ""), to: photo.id });
     result.push({ ...photo, file: expected });
   }
@@ -85,6 +91,12 @@ export async function syncPhotos(options: SyncOptions): Promise<SyncReport> {
   await mkdir(publicDir, { recursive: true });
 
   const loaded = await readPhotos(jsonFile);
+  const loadedCheck = syncedPhotosSchema.safeParse(loaded);
+  if (!loadedCheck.success) {
+    throw new Error(
+      `Invalid photos data: ${z.prettifyError(loadedCheck.error)}`,
+    );
+  }
   const { photos: existing, renamed } = await applyRenames(loaded, publicDir);
 
   const entries = await readdir(sourceDir, { withFileTypes: true });
@@ -97,34 +109,53 @@ export async function syncPhotos(options: SyncOptions): Promise<SyncReport> {
 
   const bySource = new Map(existing.map((photo) => [photo.source, photo]));
   const usedFiles = new Set(existing.map((photo) => photo.file));
+  const usedIds = new Set(existing.map((photo) => photo.id));
+
+  // Plan everything that can fail without rendering, before the first render.
+  type Job = {
+    name: string;
+    file: string;
+    renderNeeded: boolean;
+    isNew: boolean;
+  };
+  const jobs: Job[] = [];
+  for (const name of originals) {
+    const entry = bySource.get(name);
+    if (entry) {
+      // oxlint-disable-next-line no-await-in-loop -- one image at a time keeps memory low
+      const hash = await hashFile(join(sourceDir, name));
+      jobs.push({
+        name,
+        file: entry.file,
+        renderNeeded:
+          entry.sourceHash !== hash || !existsSync(join(publicDir, entry.file)),
+        isNew: false,
+      });
+      continue;
+    }
+    const id = photoIdFromFileName(name);
+    const file = `${id}.jpg`;
+    if (usedIds.has(id) || usedFiles.has(file)) {
+      throw new Error(
+        `Photo "${name}" would get the id "${id}", already used by another photo`,
+      );
+    }
+    usedIds.add(id);
+    usedFiles.add(file);
+    jobs.push({ name, file, renderNeeded: true, isNew: true });
+  }
+
   const scanned: ScannedPhoto[] = [];
   const updated: string[] = [];
   const unknownCameras = new Set<string>();
-
-  for (const name of originals) {
-    const source = join(sourceDir, name);
-    const entry = bySource.get(name);
-    let file: string;
-    let renderNeeded: boolean;
-    if (entry) {
-      file = entry.file;
-      // oxlint-disable-next-line no-await-in-loop -- one image at a time keeps memory low
-      const hash = await hashFile(source);
-      renderNeeded =
-        entry.sourceHash !== hash || !existsSync(join(publicDir, file));
-      if (renderNeeded) updated.push(name);
-    } else {
-      file = `${photoIdFromFileName(name)}.jpg`;
-      if (usedFiles.has(file)) {
-        throw new Error(
-          `Photo "${name}" would be served as "${file}", already used by another entry`,
-        );
-      }
-      usedFiles.add(file);
-      renderNeeded = true;
-    }
+  for (const job of jobs) {
+    if (!job.isNew && job.renderNeeded) updated.push(job.name);
     // oxlint-disable-next-line no-await-in-loop -- one image at a time keeps memory low
-    const result = await scanPhoto(source, join(publicDir, file), renderNeeded);
+    const result = await scanPhoto(
+      join(sourceDir, job.name),
+      join(publicDir, job.file),
+      job.renderNeeded,
+    );
     scanned.push(result.scanned);
     if (result.unknownCamera !== undefined) {
       unknownCameras.add(result.unknownCamera);
