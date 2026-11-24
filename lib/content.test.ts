@@ -289,7 +289,7 @@ describe("getPhotos", () => {
       ["a.jpg", "other.jpg"],
     );
     await expect(getPhotos("fr", contentDir, publicDir)).rejects.toThrow(
-      "run pnpm photos:meta",
+      "photos.json: 1.file: expected <id>.jpg: run pnpm photos:meta",
     );
   });
 

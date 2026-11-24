@@ -1,9 +1,16 @@
 import type { AppLocale } from "@/i18n/routing";
 import type { PhotoExif } from "@/lib/schemas";
 
-/** "1/400 s" below one second, "2 s" or "1,5 s" from one second up. */
+/**
+ * "1/400 s" when the exposure is a clean reciprocal (1/N, N >= 2), otherwise
+ * decimal seconds: "0,8 s", "1,5 s", "2 s".
+ */
 function formatExposure(seconds: number, locale: AppLocale): string {
-  if (seconds < 1) return `1/${Math.round(1 / seconds)} s`;
+  const reciprocal = 1 / seconds;
+  const n = Math.round(reciprocal);
+  if (seconds < 1 && n >= 2 && Math.abs(reciprocal - n) <= 0.05) {
+    return `1/${n} s`;
+  }
   const value = new Intl.NumberFormat(locale, {
     maximumFractionDigits: 1,
   }).format(seconds);

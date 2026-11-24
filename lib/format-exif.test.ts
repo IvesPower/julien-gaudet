@@ -28,6 +28,25 @@ describe("formatExif", () => {
     expect(formatExif({ exposureTime: 2 }, "en")).toBe("2 s");
   });
 
+  it("uses a fraction for clean reciprocals", () => {
+    expect(formatExif({ exposureTime: 0.0025 }, "fr")).toBe("1/400 s");
+    expect(formatExif({ exposureTime: 1 / 3 }, "fr")).toBe("1/3 s");
+    expect(formatExif({ exposureTime: 1 / 8000 }, "fr")).toBe("1/8000 s");
+    expect(formatExif({ exposureTime: 0.5 }, "fr")).toBe("1/2 s");
+  });
+
+  it("uses decimal seconds otherwise", () => {
+    expect(formatExif({ exposureTime: 0.8 }, "fr")).toBe("0,8 s");
+    expect(formatExif({ exposureTime: 0.8 }, "en")).toBe("0.8 s");
+    expect(formatExif({ exposureTime: 0.4 }, "fr")).toBe("0,4 s");
+    expect(formatExif({ exposureTime: 0.3 }, "fr")).toBe("0,3 s");
+  });
+
+  it("formats a wide aperture", () => {
+    expect(formatExif({ aperture: 1.7 }, "fr")).toBe("f/1,7");
+    expect(formatExif({ aperture: 1.7 }, "en")).toBe("f/1.7");
+  });
+
   it("skips the missing items", () => {
     expect(formatExif({ camera: "Sony A7 IV", iso: 400 }, "en")).toBe(
       "Sony A7 IV · ISO 400",
