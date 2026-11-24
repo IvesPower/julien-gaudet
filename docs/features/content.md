@@ -1,5 +1,7 @@
 # Contenu du site
 
+Les photos ont leur propre chemin (script, fichiers servis) : voir [`photos.md`](photos.md).
+
 Le texte des pages vit dans `content/`, pas dans le code. Ajouter une expérience ou un projet, c'est éditer un fichier et commiter : le build valide tout et Vercel redéploie.
 
 ## Le chemin du contenu
